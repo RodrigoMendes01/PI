@@ -1,0 +1,182 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  height: 10vh;
+}
+
+header .logoeham {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#ham {
+  display: flex;
+  height: 5vh ;
+  padding-left: 10%;
+}
+
+#logo {
+  display: flex;
+  padding-left: 60%;
+  height: 10vh;
+}
+
+.barra {
+  display: flex;
+  margin-left: 10%;
+  background-color: brown;
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.barrabusca {
+  width: 80%;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.barra .lupa {
+  display: flex;
+  height: 70%;
+  margin-top: 0.5%;
+  margin-left: 1%;
+}
+
+.lupaetxt {
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 5%;
+}
+
+.lupaetxt p {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 10%;
+}
+
+.usuario, .login {
+  display: flex;
+  justify-content: center;
+  padding-left: 7%;
+}
+
+.login {
+  height: 60px;
+}
+
+.seta {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  margin: auto 0;
+}
+
+.seta img {
+  margin-left: 10%;
+  height: 32px;
+}
+
+.seta p {
+  font-size: 20px;
+  color: white;
+}
+
+.carro {
+  display: flex;
+  height: 50px;
+  padding-left: 6%;
+}
+
+/* HEADER ENDS */
+
+
+/* ABRE SETA */
+
+#seta {
+  position: absolute;
+  padding: 4px;
+  margin-top: 3px;
+  box-shadow: 2px -2px 0 1px red inset;
+  border: solid transparent;
+  border-width: 0 0 2px 2px;
+  transform: rotate(-135deg);
+}
+
+span {
+  font-family: Barlow;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+div {
+  display: inline-block;
+}
+
+/* FECHA SETA */
+
+
+/* SEÇÃ0 PRODUTOS STARTS */
+
+.produtos1 {
+  display: flex;
+  justify-content: center;
+}
+
+.produtos2 {
+  display: flex;
+  justify-content: center;
+}
+
+.produtos3 {
+  display: flex;
+  justify-content: center;
+}
+
+.nome {
+  font-family: Barlow;
+  font-size: 14px;
+  background-color: gold;
+  padding: 4px 6px;
+  border-radius: 10px;
+  color: black;
+}
+
+p {
+  font-family: Barlow;
+  font-size: 15px;
+}
+
+.produto {
+  border: 2px double #dd0000;
+  border-radius: 10px;
+  margin: 11px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  background-color: white;
+  width: 20%;
+}
+
+.botao1 {
+  margin-top: 10px;
+      color: white;
+  font-size: 13px;
+  font-weight: 200px;
+  background-color: #dd0000;
+  padding: 5px;
+  width: 95%;
+  border-radius: 10px;
+  border-color: #dd0000;
+  vertical-align: bottom;
+  display:inline-block;
+}
+
+/* SEÇÃ0 PRODUTOS ENDS */

@@ -1,0 +1,217 @@
+body {
+  font-family: Barlow, sans-serif;
+  background-color: white;
+}
+.nomeProduto button{
+   color: white;
+  font-size: 20px;
+  font-weight: 900px;
+  background-color: #dd0000;
+  padding: 18px;
+  width: 228px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-color: #dd0000;
+}
+
+  #consultar {
+    color: #dd0000;
+    font-size: 20px;
+    font-weight: 900px;
+    background-color:white;
+    padding: 5px;
+    width: 228px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: #dd0000;
+    border-style: solid;
+  }
+
+  .nomeProduto input{
+    width: 55%;
+    font-weight: 100px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+  }
+
+/* HEADER STARTS */
+header {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  height: 10vh;
+}
+
+header .logoeham {
+  display: flex;
+  align-items: center;
+}
+
+#ham {
+  display: flex;
+  height: 5vh ;
+  padding-left: 10%;
+}
+
+#logo {
+  display: flex;
+  padding-left: 60%;
+  height: 10vh;
+}
+
+.barra {
+  display: flex;
+  margin-left: 10%;
+  background-color: brown;
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.barrabusca {
+  width: 80%;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.barra .lupa {
+  display: flex;
+  height: 70%;
+  margin-top: 0.5%;
+  margin-left: 1%;
+}
+
+.lupaetxt {
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 5%;
+}
+
+.lupaetxt p {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 10%;
+}
+
+.usuario, .login {
+  display: flex;
+  justify-content: center;
+  padding-left: 7%;
+}
+
+.login {
+  height: 60px;
+}
+
+.seta {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  margin: auto 0;
+}
+
+.seta img {
+  margin-left: 10%;
+  height: 32px;
+}
+
+.seta p {
+  font-size: 20px;
+  color: white;
+}
+
+.carro {
+  display: flex;
+  height: 50px;
+  padding-left: 6%;
+}
+/* HEADER ENDS */
+
+#detalhesDoProduto{
+  margin-top: 50px;
+  margin-bottom: 0%;
+  font-weight: 500px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.caracteristicas-do-produto {
+color: black;
+font-weight: 400px;
+font-size: 15px;
+text-align: left;
+margin-top: 0px;
+}
+.caracteristicas-do-produto p {
+  margin-left: 10px;
+}
+#veja-tambem{
+margin-top: 20px;
+text-align: center;
+font-weight: 500px;
+font-size: 22px;
+}
+.nomeProduto{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+}
+.nomeProduto img {
+  width: 100%;
+}
+.nomeProduto div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 10px;
+}
+p {
+  font-family: Barlow;
+  font-size: 15px;
+}
+.produto {
+  width: 20%;
+  border: 2px double #dd0000;
+  border-radius: 10px;
+  margin: 11px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  background-color: white;
+}
+.produtos1 {
+  display: flex;
+}
+.nome {
+  font-size: 14px;
+  background-color: gold;
+  padding: 4px 6px;
+  border-radius: 10px;
+  color: black; 
+}
+.botao1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: 200px;
+  background-color: #dd0000;
+  padding: 5px;
+  width: 95%;
+  border-radius: 10px;
+  border-color: #dd0000;
+  vertical-align: bottom;
+  display:inline-block;
+}

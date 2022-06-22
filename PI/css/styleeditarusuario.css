@@ -1,0 +1,598 @@
+p {
+  font-family: Barlow;
+  font-size: 15px;
+  }
+  
+  .container {
+  
+  display: flex;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: red;
+}
+  
+  #logo {
+  justify-content: center;
+  align-items: left;  
+  }
+  
+  #icone {
+  display: inline-flex;
+  position: absolute; 
+  right: 25px; 
+  top: 35px;
+  }
+
+
+
+
+
+
+
+main {
+  display: flex;
+    margin-top: 10%;
+    min-height: 100vh;
+    flex-direction: row;
+
+}
+.linknavegacao{
+  display:  block;
+  position: absolute;
+  margin-left: 2.2445095168374818vw;
+  margin-top: 1.44vh;
+  font-size: larger;
+  }
+a:link {
+  text-decoration: none;
+  font-family: Barlow;
+  font-size: 20px;
+  color: black;
+  
+  
+
+}
+
+a:hover {
+  color: yellow;
+  background-color: black;
+   }
+
+
+
+.menu{
+     display: flex;
+     align-content: center;
+     flex-wrap: wrap;
+     height: 35.049288061336256vh;
+   width: 19.84375vw;
+   margin-top: 100px;
+   margin-right: 15px;
+   margin-left: 45px;
+   
+
+
+}
+
+
+
+ .menu img{
+   height: 6.150964812712826vh;
+   width: 3.921875vw;
+   margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #df0707;
+  
+
+
+
+ }
+ 
+
+
+  .menu ul li{
+     display: flex;
+     align-content: center;
+     flex-wrap: wrap;
+     border: yellow ridge 5px;
+   background-color: #df0707;
+   font-family: Barlow;
+   font-size: 21px;
+   padding-top: 5px;
+
+
+
+
+    
+
+}
+
+.menu ul li:hover{
+
+color: yellow;
+
+
+
+
+ 
+
+}
+
+
+  #listausuario{
+    height: 14vh;
+    width:  19.765625vw;
+
+
+
+}
+
+
+.formulario{
+ display: inline-block;
+ box-sizing: border-box;
+ height: 151.98637911464246vh;
+ width: 63.921875vw;
+ border: yellow ridge 3px;
+ margin-top: 65px;
+ margin-left: 15px;
+ background-color: #df0707;
+}
+
+.formulario h2{
+margin-top: 10px;
+margin-left: 10px;
+font-family: Barlow;
+font-size: 25px;
+color: black;
+font-weight: bolder;
+
+
+}
+
+
+.form1{
+  display: inline-block;
+  width: 30.5vw;
+  margin-left: 1.2445095168374818vw;
+  margin-top: 1.44vh;
+  
+  
+
+
+}
+
+.form1 label{
+  display: block;
+  color: white;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form1 input{
+  width: 26.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+
+
+.form2{
+  display: inline-block;
+  width: 30.5vw;
+  
+
+
+}
+
+.form2 label{
+  display: block;
+  color: white;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+  
+}
+
+.form2 input{
+  width: 26.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+.form3{
+  display: block;
+  width: 50.5vw;
+  margin-left: 1.2445095168374818vw;
+  margin-top: 1.44vh;
+}
+
+.form3 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form3 input{
+  width: 56.22254758418741vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+.form4{
+  display: inline-block;
+  width: 30.5vw;
+  margin-left: 1.2445095168374818vw;
+  margin-top: 1.44vh;
+
+}
+
+.form4 label{
+  display: block;
+  color: white;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form4 input{
+  width: 26.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+.form5{
+  display: inline-block;
+  width: 30.5vw;
+  
+
+}
+
+.form5 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.form5 input{
+  width: 26.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+.form6{
+  display: inline-block;
+  width: 5.5vw;
+  margin-left: 1.2445095168374818vw;
+  margin-top: 1.44vh;
+  
+}
+
+.form6 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form6 input{
+  width: 5.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+.form7{
+  display: inline-block;
+  width: 20.5vw;
+  margin-left: 3.513909224011713vw;
+
+}
+
+.form7 label{
+  display: block;
+  color: white;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+
+}
+
+.form7 input{
+  width: 15.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+
+}
+
+#tituloendereco{
+  margin-top: 4.64vh;
+  margin-left: 1.2445095168374818vw;
+  font-family: Barlow;
+  font-size: 25px;
+  color: black;
+  font-weight: bolder;
+}
+
+
+.form8{
+  display: inline-block;
+  width: 30.5vw;
+  margin-left: 1.2445095168374818vw;
+  margin-top: 1.44vh;
+
+}
+
+.form8 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form8 input{
+  width: 26.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+.form9{
+  display: inline-block;
+  width: 30.5vw;
+  
+
+}
+
+.form9 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form9 input{
+  width: 26.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+#titulocartao{
+
+  margin-top: 4.64vh;
+  margin-left: 1.2445095168374818vw;
+
+}
+
+
+.form10{
+  display: inline-block;
+  width: 26.720351390922403vw;
+  margin-left : 1.2445095168374818vw;
+  margin-top: 1.44vh;
+
+}
+
+.form10 label{
+  display: block;	
+  color: white;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+
+}
+
+.form10 input{
+  width: 24.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+  
+}
+
+
+
+.form11{
+  display: inline-block;
+  width: 15.5vw;
+
+}
+
+.form11 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form11 input{
+  width: 11.71303074670571vw;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+.form12{
+  display: inline-block;
+  width: 15.5vw;
+  
+
+}
+
+.form12 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form12 input{
+  width: 11.71303074670571vw;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+}
+
+
+.form13{
+  display: inline-block;
+  width: 26.720351390922403vw;
+  margin-left : 1.2445095168374818vw;
+  margin-top: 1.44vh;
+
+}
+
+.form13 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+  
+}
+
+.form13 input{
+  width: 24.50073206442167vw ;
+  height: 3vh;
+  display: block;
+  border: solid white;
+  background-color: #757575;
+  border: yellow ridge;
+  
+}
+.form14{
+  display: inline-block;
+  width: 15.5vw;
+
+}
+
+.form14 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.form14 input{
+width: 11.71303074670571vw;
+height: 3vh;
+display: block;
+border: solid white;
+background-color: #757575;
+border: yellow ridge;
+}
+
+.form15{
+  display: inline-block;
+  width: 15.5vw;
+
+}
+
+.form15 label{
+  color: white;
+  display: block;
+  font-family: Barlow;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.form15 input{
+width: 11.71303074670571vw;
+height: 3vh;
+display: block;
+border: solid white;
+background-color: #757575;
+border: yellow ridge;
+
+}
+
+.box1 {
+
+display: block;
+margin-left : 1.2445095168374818vw;
+margin-top: 1.44vh;
+
+
+
+}
+
+.box2 {
+
+  display: block;	
+  margin-left : 1.2445095168374818vw;
+  margin-top: 1.44vh;
+
+
+}
+
+.box3 {
+
+    display: block;	
+    margin-left : 1.2445095168374818vw;
+    margin-top: 1.44vh;
+}	
+
+.submit{
+  display: flex;	
+  width: 100%;
+  justify-content: flex-end;
+
+}
+
+.submit input{
+margin-right: 15.8067349926793557vw;
+font-size: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+border: solid yellow;
+font-family: Barlow;
+
+}
+
+.submit input:hover{
+
+  background-color: yellow;
+
+}

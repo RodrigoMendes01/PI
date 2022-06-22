@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+	<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/stylecadastro2.css">
+		<link rel="stylesheet" href="css/styleeditarusuario.css">
+		<title>Cadastro</title>
+	</head>
+		<body>
+			<header>
+				<div class="container">
+					<a href="#home"><img id= logo src="img-editar-usuario/logo 1.jpeg" width="100vw" max-width="100%" height="100vh"></a>
+					<a href="#JS"><img id="icone" src="img-editar-usuario/ae.png" width="25" max-width="100%" height="25"></a>
+					</div>
+				  </header>
+			   
+			</header>
+		<main>
+			<p class="linknavegacao"><a href="/paginahome.html"> Home</a> > <a href="linknavegacao">Dados</a></p>
+		
+			<div class="menu">
+			
+			<ul>
+				<li id="listausuario"><img src="img-editar-usuario/usuario.png">Olá(Usuario)</li>
+				<li><img src="img-editar-usuario/usuario2.png">Dados</li>
+				<li><img src="img-editar-usuario/endereco.png">Endereços</li>	
+				<li><img src="img-editar-usuario/cartao.png">Cartões</li>
+			</ul>
+
+
+		</div>
+		
+		<div class="formulario">
+			<h2>Editar Dados</h2>
+
+
+		<form>
+			
+			<div class="form1">
+
+			
+				
+				<label for="nome">Nome Completo</label>
+	        	<input type="text" id="nome" />
+				
+
+	        	<label for="apelido">Apelido</label>
+        		<input type="text" id="apelido" />
+
+
+        		<label for="email">e-mail</label>
+	        	<input type="email" id="email" />
+
+
+	        	<label for="cpf">CPF</label>
+	        	<input type="number" id="cpf" />
+
+	        </div>
+
+	        <div class="form2">
+				<label for="sobrenome">Sobrenome</label>
+        		<input type="text" id="sobrenome" />
+        	
+
+        	
+        		
+
+        		<label for="nascimento">data de nascimento</label>
+        		<input type="date" id="nascimento" />
+        	
+
+        
+				
+				
+				<label for="confiremail">e-mail de confirmação</label>
+        		<input type="email" id="confiremail" />
+   
+
+        	
+				
+				
+				<label for="rg">RG</label>
+        		<input type="number" id="rg" />
+        	
+        	</div>
+			<div class="form3">
+				<label for="senha">Senha Atual</label>
+	        	<input type="password" id="senha" />
+			</div>
+
+        	<div class="form4">
+				<label for="novasenha">Nova Senha</label>
+	        	<input type="password" id="novasenha" />	
+			</div>	
+
+			<div class="form5">
+				<label for="confisenha">Confirmação nova senha</label>
+	        	<input type="password" id="confisenha" />
+				
+			</div>
+			
+			<div class="form6">
+				<label for="ddd">DDD</label>
+	        	<input type="number" id="ddd" />
+			</div>	
+				
+			<div class="form7">
+				<label for="numero">Número</label>
+        		<input type="tel" id="numero" />
+			</div>	
+			
+       		
+			<h2 id="tituloendereco">Endereços</h2>	
+        	
+
+        	<div class="form8">
+				<label for="cep">CEP</label>
+	        	<input type="number" id="cep" />
+
+				<label for="nomedestinatario">Nome destinatário</label>
+	        	<input type="text" id="nomedestinatario" />
+
+				<label for="bairro">Bairro</label>
+	        	<input type="text" id="bairro" />
+
+				<label for="endereco">Endereço</label>
+	        	<input type="text" id="endereco" />
+			</div>
+
+        	<div class="form9">
+
+				<label for="numerocasa">Numero casa</label>
+        		<input type="number" id="numerocasa" />
+				
+				<label for="complemento">Complemento</label>
+        		<input type="text" id="complemento" />
+				
+				<label for="cidade">Cidade</label>
+        		<input type="text" id="cidade" />
+				
+				<label for="pontorefe">Ponto referencial</label>
+        		<input type="text" id="pontorefe" />
+        	</div>
+
+        	<h2 id="titulocartao">Cartões</h2>
+
+        	<div class="form10">
+				<label for="numerocartao1">Numero cartao</label>
+	        	<input type="number" id="numerocartao1" />
+			</div>
+
+			<div class="form11">
+				<label for="datavalidade">Data validade</label>
+        		<input type="date" id="datavalidade" />
+			</div>
+
+			<div class="form12">
+        		<label for="codseg1">Código segurança</label>
+        		<input type="password" id="codseg1" />
+        	</div>
+
+        	<div class="form13">
+				<label for="numerocartao2">Numero cartao</label>
+	        	<input type="number" id="numerocartao2" />
+			</div>	
+			<div class="form14">
+				<label for="datavalidade">Data validade</label>
+        		<input type="date" id="datavalidade" />
+			</div>
+			<div class="form15">
+        		<label for="codseg2">Código segurança</label>
+        		<input type="password" id="codseg2" />
+        	</div>
+
+			<div class="box1">
+				<input type="checkbox" id="notificacoesemail">
+       			<label for="notificacoesemail">receber notificações e-mail</label>
+			</div>
+
+			<div class="box2">
+				<input type="checkbox" id="notificacoescelular">
+				<label for="notificacoescelular">receber notificações celular</label>
+			</div>
+
+			<div class="box3">
+				<input type="checkbox" id="ofertasemail">
+        		<label for="ofertasemail">receber ofertas e-mail</label>
+			</div>
+			<div class="submit">
+				<input type="submit" value="Salvar Dados">
+			</div>
+
+
+
+
+		</form>
+
+
+
+		</div>
+
+			
+
+		</main>
+
+
+		</body>
+
+
+
+
+
+
+
+
+	</html>

@@ -1,0 +1,66 @@
+.container {
+  position: fixed;
+  display: flex;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: red;
+  z-index: 9; 
+}
+
+#logo {
+  justify-content: center;
+  align-items: left;  
+}
+
+#icone {
+  display: inline-flex;
+  position: absolute; 
+  right: 25px; 
+  top: 35px;
+}
+
+.titulos {
+  background-color: white;
+  color: black;
+  border: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  padding: 0px 200px 100px 200px;
+}
+
+.tela-de-login{
+  border: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+#lista {
+  display: inline;
+  text-align: center;
+  justify-content: center;
+}
+
+/* .required:after {
+  content: " *";
+  color: #d00;
+} */
+
+h1{
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  white-space: normal;
+}
+
+h3{
+  font-weight: lighter;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+}
