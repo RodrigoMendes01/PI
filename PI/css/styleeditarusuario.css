@@ -129,7 +129,7 @@ a:hover {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: #df0707;
+  background-color: white;
   
 
 
@@ -143,10 +143,11 @@ a:hover {
      align-content: center;
      flex-wrap: wrap;
      border: black ridge 1px;
-     background-color: #df0707;
+     background-color: red;
      font-family: Barlow;
      font-size: 21px;
      padding-top: 5px;
+     color: white;
 
 }
 
