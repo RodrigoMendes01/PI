@@ -1,0 +1,26 @@
+HOME
+https://wireframe.cc/pro/pp/aeec7de00552861 - página home
+
+-----------------------------------------------------------------------------------------------------
+
+ÁREA DE PRODUTOS / ÁREA COMPRA
+
+https://wireframe.cc/pro/pp/6cde7cfc7552970 - ao clicar no produto, sessão compra.
+
+https://wireframe.cc/pro/pp/a66131848552910 - área produtos.
+
+------------------------------------------------------------------------------------------------------
+
+ÁREA CADASTRO / ÁREA EDITAR CADASTRO
+
+https://wireframe.cc/pro/pp/5a16ca672552895 - área cadastro 1
+
+https://wireframe.cc/pro/pp/039c1ce6e552906 - área cadastro 2
+
+https://wireframe.cc/UupBuJ - editar cadastro
+
+-------------------------------------------------------------------------------------------------------
+
+QUEM SOMOS
+
+https://wireframe.cc/hh1xcW - sobre nós
