@@ -1,3 +1,9 @@
+/* HEADER */
+p {
+  font-family: Barlow;
+  font-size: 15px;
+}
+
 .container {
   position: fixed;
   display: flex;
@@ -19,41 +25,41 @@
   right: 25px; 
   top: 35px;
 }
+/* HEADER ENDS*/
+
+body {
+  font-family: Barlow, sans-serif;
+  background-color: white;
+}
 
 .titulos {
   background-color: white;
   color: black;
   border: 10px;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -35%);
   padding: 0px 200px 100px 200px;
+  justify-content: column;
+  flex-wrap: wrap;
 }
 
 .tela-de-login{
+  color: black;
   border: 50px;
-  text-align: center;
-  justify-content: center;
+  position: absolute;
+  top: 70%;
+  left: 51%;
+  transform: translate(-50%, -35%);
+  padding: 0px 200px 100px 200px;
 }
-
-#lista {
-  display: inline;
-  text-align: center;
-  justify-content: center;
-}
-
-/* .required:after {
-  content: " *";
-  color: #d00;
-} */
 
 h1{
   font-weight: bold;
   color: black;
   font-size: 30px;
   text-align: center;
-  justify-content: center;
   white-space: normal;
 }
 
@@ -62,5 +68,27 @@ h3{
   color: black;
   font-size: 15px;
   text-align: center;
-  justify-content: center;
+}
+
+input {
+  padding: 10px 62px 10px 75px;
+  text-align: center;
+  left: 100%;
+  align-items: center;
+}
+
+section {
+margin-left: 40%;
+  position: center;
+}
+
+button {
+  color: white;
+  font-size: 15px;
+  font-weight: 900px;
+  background-color: black;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
 }
