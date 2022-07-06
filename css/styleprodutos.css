@@ -6,7 +6,8 @@ header {
   background-color: red;
   height: 13vh;
   gap: 4%;
-  margin: -8;
+  padding: 0;
+  margin: -8px;
   box-sizing: border-box;
 }
 .logoeham {
