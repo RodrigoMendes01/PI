@@ -1,4 +1,3 @@
-
 /* ABRE HEADER */ 
 header {
   display: flex;
@@ -6,7 +5,8 @@ header {
   background-color: red;
   height: 13vh;
   gap: 4%;
-  margin: -8;
+  padding: 0;
+  margin: -8px;
   box-sizing: border-box;
 }
 .logoeham {
@@ -93,7 +93,7 @@ header {
 
 
 
-/* ABRE SETAS */
+/* ABRE SETA */
 .setinha {
   position: absolute;
   padding: 4px;
@@ -112,7 +112,7 @@ header {
 div {
   display: inline-block;
 }
-/* FECHA SETAS */
+/* FECHA SETA */
 
 
 
@@ -169,7 +169,11 @@ h2 {
 }
 /* FECHA PRODUTOS */
 
-
+.produto .images {
+  width: 100%;
+  max-height: 50%;
+  
+}
 
 @media (max-width: 1024px) {
   .produto {
@@ -188,6 +192,9 @@ h2 {
     height: 100px;
   } 
 }
+
+
+
 
 @media (max-width: 280px) {
   .produto {
