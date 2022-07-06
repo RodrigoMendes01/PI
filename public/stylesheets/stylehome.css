@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow";
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  height: 14vh;
+}
+header .logoeham {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#ham {
+  display: flex;
+  height: 5vh ;
+  padding-left: 10%;
+}
+#logo {
+  display: flex;
+  padding-left: 60%;
+}
+.barra {
+  display: flex;
+  margin-left: 10%;
+  background-color: brown;
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+}
+.barrabusca {
+  width: 80%;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 5px;
+}
+.barra .lupa {
+  display: flex;
+  height: 70%;
+  margin-top: 0.5%;
+  margin-left: 1%;
+}
+.lupaetxt {
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+}
+.lupaetxt p {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 10%;
+}
+.usuario, .login {
+  display: flex;
+  justify-content: center;
+  padding-left: 7%;
+}
+.login {
+  height: 60px;
+}
+.seta {
+  display: flex;
+  height: 50%;
+  margin-top: 13%;
+}
+.seta img {
+  margin-left: 10%;
+}
+.seta p {
+  font-size: 20px;
+  color: white;
+}
+.carro {
+  display: flex;
+  height: 50px;
+  padding-left: 6%;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+main .aviso {
+  display: flex;
+  width: 100%;
+  background-color: rgb(223, 223, 21)
+}
+.txt {
+  display: flex;
+  align-items: center;
+}
+.txt p {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+.caminhao {
+  height: 100px;
+}
+.slideshow-container {
+  width: 100vw;
+  max-height: 90%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -8rem;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(219, 20, 20, 0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  display: flex;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.conteinerprodutos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.produtos1, .produtos2, .produtos3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.nome {
+  font-size: 14px;
+  background-color: gold;
+  padding: 4px 6px;
+  border-radius: 10px;
+  color: black;
+}
+p {
+  font-size: 15px;
+}
+.produto {
+  width: 20%;
+  border: 2px double #dd0000;
+  border-radius: 10px;
+  margin: 11px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  background-color: white;
+}
+.botao1 {
+  margin-top: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: 200px;
+  background-color: #dd0000;
+  padding: 5px;
+  width: 95%;
+  border-radius: 10px;
+  border-color: #dd0000;
+  vertical-align: bottom;
+  display:inline-block;
+}
+.conteinerprodutos img {
+  height: 60%;
+  width: 90%;
+}
+.conteinerprodutos h2 {
+  font-size: 40px;
+  color: #dd0000;
+  margin-left: 1%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  height: 30vh;
+  padding-right: 20%;
+}
+.logo-footer {
+  margin-left: 3%;
+  width: 25%;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+  margin-left: 11%;
+  text-align: left;
+}
+.media-social {
+  position: relative;
+  left: 29px;
+  top: 20px;
+  cursor: pointer;
+}
+footer .lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh;
+}
+footer .lista li, footer .lista a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+footer .lista h4 {
+  color: white;
+}
+
