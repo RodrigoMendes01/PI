@@ -1,105 +1,100 @@
+
+/* ABRE HEADER */ 
 header {
   display: flex;
   align-items: center;
   background-color: red;
-  height: 10vh;
+  height: 13vh;
+  gap: 4%;
+  margin: -8;
+  box-sizing: border-box;
 }
-
-header .logoeham {
+.logoeham {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  width: 15%;
+  height: 80%;
 }
-
-#ham {
+#ham, .logo {
   display: flex;
-  height: 5vh ;
-  padding-left: 10%;
 }
-
-#logo {
-  display: flex;
-  padding-left: 60%;
-  height: 10vh;
+.logo {
+  width: 45%;
+  height: 90%;
 }
-
-.barra {
+.container {
   display: flex;
-  margin-left: 10%;
   background-color: brown;
-  width: 50%;
-  height: 40px;
-  border-radius: 8px;
+  width: 55%;
+  height: 35%;
+  gap: 15px;
+  border-radius: 7px;
 }
-
-.barrabusca {
-  width: 80%;
-  border-radius: 5px;
-  padding-left: 5px;
+#pesquisa {
+  border-radius: 6px;
+  border: 0;
+  width: 85%;
+  padding-left: 8px;
 }
-
-.barra .lupa {
-  display: flex;
-  height: 70%;
-  margin-top: 0.5%;
-  margin-left: 1%;
-}
-
-.lupaetxt {
-  display: flex;
-  align-items: center;
-  padding-left: 1%;
-  padding-right: 5%;
-}
-
-.lupaetxt p {
-  display: flex;
-  font-size: 15px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
-  padding-left: 10%;
-}
-
-.usuario, .login {
+.lupa {
   display: flex;
   justify-content: center;
-  padding-left: 7%;
+  align-items: center;
+  width: 10%;
+  height: 95%;
 }
-
+.lupa img {
+  height: 70%;
+}
+.usuario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 22%;
+  
+}
 .login {
-  height: 60px;
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+  max-height: max-content;
+  
 }
-
+.login img {
+  width: 3vw;
+}
 .seta {
   display: flex;
-  height: 50%;
   align-items: center;
-  margin: auto 0;
+  max-width: max-content;
+  max-height: max-content;
 }
-
 .seta img {
-  margin-left: 10%;
-  height: 32px;
+  width: 1.5vw;
 }
-
-.seta p {
-  font-size: 20px;
-  color: white;
-}
-
-.carro {
+.usuario .carrinho {
   display: flex;
-  height: 50px;
-  padding-left: 6%;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: max-content;
+  max-height: max-content;
 }
+.carrinho img {
+  width: 5vw;
+}
+.usuario-container {
+  display: flex;
+  align-items: center;
+  
+}
+/* FECHA HEADER*/
 
-/* HEADER ENDS */
 
 
-/* ABRE SETA */
-
-#seta {
+/* ABRE SETAS */
+.setinha {
   position: absolute;
   padding: 4px;
   margin-top: 3px;
@@ -108,66 +103,44 @@ header .logoeham {
   border-width: 0 0 2px 2px;
   transform: rotate(-135deg);
 }
-
-span {
+.inlineseta {
   font-family: Barlow;
   font-size: 14px;
   text-decoration: none;
   color: black;
 }
-
 div {
   display: inline-block;
 }
+/* FECHA SETAS */
 
-/* FECHA SETA */
 
 
-/* SEÇÃ0 PRODUTOS STARTS */
-
-.produtos1 {
+/* ABRE PRODUTOS */ 
+.container-pai {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
-
-.produtos2 {
-  display: flex;
-  justify-content: center;
-}
-
-.produtos3 {
-  display: flex;
-  justify-content: center;
-}
-
-.nome {
+h2 {
   font-family: Barlow;
-  font-size: 14px;
-  background-color: gold;
-  padding: 4px 6px;
-  border-radius: 10px;
-  color: black;
+  color: rgba(0, 0, 0, 0.707);
+  text-align: center;
 }
-
-p {
-  font-family: Barlow;
-  font-size: 15px;
-}
-
 .produto {
-  border: 2px double #dd0000;
+  border: 1px groove #dd0000;
   border-radius: 10px;
-  margin: 11px;
+  margin: 16px 16px;
   text-align: center;
   padding: 15px;
   cursor: pointer;
   background-color: white;
-  width: 20%;
+  width: 200px;
+  height: 260px;
 }
-
 .botao1 {
   margin-top: 10px;
-      color: white;
+  color: white;
   font-size: 13px;
   font-weight: 200px;
   background-color: #dd0000;
@@ -178,5 +151,58 @@ p {
   vertical-align: bottom;
   display:inline-block;
 }
+.preco {
+  font-family: Barlow;
+  font-size: 14px;
+}
+.nome {
+  font-family: Barlow;
+  font-size: 13.5px;
+  background-color: gold;
+  padding: 4px 6px;
+  border-radius: 10px;
+  color: black;
+}
+.imgprodutos {
+  width: 140px;
+  height: 140px;
+}
+/* FECHA PRODUTOS */
 
-/* SEÇÃ0 PRODUTOS ENDS */
+
+
+@media (max-width: 1024px) {
+  .produto {
+    max-width: 120px;
+    height: 180px;
+    margin: 10px;
+  }
+  .preco, .nome, .botao1 {
+    font-size: 8px;
+  }
+  .inlineseta {
+    font-size: 12px;
+  }
+  .imgprodutos {
+    width: 100px;
+    height: 100px;
+  } 
+}
+
+@media (max-width: 280px) {
+  .produto {
+    max-width: 80px;
+    height: 140px;
+    margin: 8px;
+  }
+  .preco, .nome, .botao1 {
+    font-size: 6.5px;
+  }
+  .inlineseta {
+    font-size: 11px;
+  }
+  .imgprodutos {
+    width: 60px;
+    height: 60px;
+  } 
+}
