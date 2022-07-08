@@ -1,6 +1,6 @@
 const SobreController = {
   index: (req, res) => {
-    res.render('sobre')
+    res.render('paginaSobre')
   }
 };
 
