@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const SobreController = require('../controllers/SobreController');
+const sobreController = require('../controllers/sobreController');
 
 
-router.get('/', SobreController.index);
+router.get('/', sobreController.index);
 
 module.exports = router

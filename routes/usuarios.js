@@ -9,6 +9,9 @@ router.get('/cadastro', function(req, res, next) {
 router.get('/cadastro2', function(req, res, next) {
   res.render('paginaCadastro2');
 });
+router.get('/perfil', function(req, res) {
+  res.render('paginaUsuario');
+})
 
 module.exports = router;
 
