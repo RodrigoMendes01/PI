@@ -4,4 +4,5 @@ const SobreController = {
   }
 };
 
-module.exports = SobreController
+module.exports = SobreController;
+

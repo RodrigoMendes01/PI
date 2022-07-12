@@ -69,12 +69,6 @@ p {
   top: 35px;
   }
 
-
-
-
-
-
-
 main {
   display: flex;
     margin-top: 10%;
@@ -94,17 +88,12 @@ a:link {
   font-family: Barlow;
   font-size: 20px;
   color: black;
-  
-  
-
 }
 
 a:hover {
   color: yellow;
   background-color: black;
    }
-
-
 
 .menu{
      display: flex;
@@ -115,12 +104,7 @@ a:hover {
      margin-top: 115px;
      margin-right: 15px;
      margin-left: 45px;
-   
-
-
 }
-
-
 
  .menu img{
    height: 6.150964812712826vh;
@@ -130,14 +114,8 @@ a:hover {
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: white;
-  
-
-
-
  }
  
-
-
   .menu ul li{
      display: flex;
      align-content: center;
@@ -152,23 +130,13 @@ a:hover {
 }
 
 .menu ul li:hover{
-
-color: yellow;
-
-
-
-
- 
-
+   color: yellow;
 }
 
 
   #listausuario{
     height: 14vh;
     width:  19.765625vw;
-
-
-
 }
 
 
@@ -188,8 +156,6 @@ font-family: Barlow;
 font-size: 25px;
 color: black;
 font-weight: bolder;
-
-
 }
 
 
@@ -215,14 +181,9 @@ font-weight: bolder;
   border: black solid 1px
 }
 
-
-
 .form2{
   display: inline-block;
   width: 30.5vw;
-  
-
-
 }
 
 .form2 label{
@@ -231,7 +192,6 @@ font-weight: bolder;
   font-family: Barlow;
   font-size: 20px;
   margin-bottom: 3px;
-  
 }
 
 .form2 input{
