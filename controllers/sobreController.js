@@ -1,7 +1,7 @@
-const SobreController = {
+const sobreController = {
   index: (req, res) => {
     res.render('paginaSobre')
   }
 };
 
-module.exports = SobreController
+module.exports = sobreController
