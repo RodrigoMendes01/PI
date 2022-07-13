@@ -2,12 +2,9 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: red;
-  height: 13vh;
-  gap: 4%;
-  padding: 0;
-  margin: -8px;
-  box-sizing: border-box;
+  height: 15vh;
 }
 .logoeham {
   display: flex;
@@ -21,39 +18,46 @@ header {
 }
 .logo {
   width: 45%;
-  height: 90%;
+  height: 100%;
+}
+#ham {
+  justify-content: center;
+  width: 37%;
+  height: 35%;
 }
 .container {
   display: flex;
+  align-items: center;
   background-color: brown;
   width: 55%;
   height: 35%;
-  gap: 15px;
+  gap: 4%;
   border-radius: 7px;
 }
 #pesquisa {
   border-radius: 6px;
   border: 0;
   width: 85%;
+  height: 100%;
   padding-left: 8px;
 }
 .lupa {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10%;
-  height: 95%;
+  width: max-content;
+  height: 90%;
 }
 .lupa img {
-  height: 70%;
+ height: 90%;
+ width: 95%
 }
 .usuario {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
+  height: 80%;
   width: 22%;
-  
 }
 .login {
   display: flex;
@@ -63,7 +67,7 @@ header {
   
 }
 .login img {
-  width: 3vw;
+  width: 4vw;
 }
 .seta {
   display: flex;
@@ -72,7 +76,7 @@ header {
   max-height: max-content;
 }
 .seta img {
-  width: 1.5vw;
+  width: 2vw;
 }
 .usuario .carrinho {
   display: flex;
@@ -82,12 +86,11 @@ header {
   max-height: max-content;
 }
 .carrinho img {
-  width: 5vw;
+  width: 6vw;
 }
 .usuario-container {
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
 }
 /* FECHA HEADER*/
 
@@ -168,6 +171,46 @@ h2 {
   height: 140px;
 }
 /* FECHA PRODUTOS */
+
+/* FOOTER START */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  height: 30vh;
+  padding-right: 20%;
+}
+.logo-footer {
+  margin-left: 3%;
+  width: 25%;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+  margin-left: 11%;
+  text-align: left;
+}
+.media-social {
+  position: relative;
+  left: 29px;
+  top: 20px;
+  cursor: pointer;
+}
+footer .lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh;
+}
+footer .lista li, footer .lista a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+footer .lista h4 {
+  color: white;
+}
+/* FOOTER END */
 
 .produto .images {
   width: 100%;
