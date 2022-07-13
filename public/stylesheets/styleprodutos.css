@@ -4,7 +4,15 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: red;
+<<<<<<< HEAD:public/stylesheets/styleprodutos.css
   height: 15vh;
+=======
+  height: 13vh;
+  gap: 4%;
+  padding: 0;
+  margin: -8px;
+  box-sizing: border-box;
+>>>>>>> f2ab7bc947865e66bd07afb616be26281b45cf22:css/styleprodutos.css
 }
 .logoeham {
   display: flex;
