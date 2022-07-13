@@ -1,17 +1,14 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+
+const userController = require('../controllers/userController')
 
 /* GET users listing. */
-router.get('/cadastro', function(req, res, next) {
-  res.render('paginaCadastro1');
-});
+router.get('/cadastro', userController.index);
 
-router.get('/cadastro2', function(req, res, next) {
-  res.render('paginaCadastro2');
-});
-router.get('/perfil', function(req, res) {
-  res.render('paginaUsuario');
-})
+router.get('/cadastro2', userController.show);
+
+router.get('/perfil', userController.display);
 
 module.exports = router;
 
