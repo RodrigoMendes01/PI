@@ -13,35 +13,9 @@
   </title>
 </head>
 <body>
-  <header>  
-    <div class="logoeham">
-      <div id="ham">
-        <img src="images/img-home/hamburger.png" alt="hamburger">
-      </div>
-      <div>
-        <img id="logo" src="images/img-home/logo1.jpg" alt="logo">
-      </div>
-    </div>
-    <div class="barra">
-      <input class="barrabusca" type="text" placeholder="Busca...">
-      <div class="lupaetxt">
-        <img class="lupa" src="images/img-home/lupa.png" alt="lupa">
-      <p>buscar</p>
-      </div>
-    </div>
-    <div class="usuario">
-      <div class="login">
-        <img src="images/img-home/usserlogin.png" alt="usuario login"> 
-      <div class="seta">
-        <p>Entrar</p>
-        <img src="images/img-home/seta.png" alt="seta para baixo">
-      </div>
-      </div>
-    </div>  
-    <div class="carro">
-      <img src="images/img-home/carrinho.png" alt="carrinho compra">
-    </div>
-  </header>
+
+  <%- include("./partials/header")  %> 
+  
   <main>
     <div class="aviso">
            
@@ -184,55 +158,8 @@
     </section>
  
   </main>
-  <footer>
-    <div class="logo-footer">
-      <img src="images/img-home/logo1.jpg" alt="images logo">
-      <p>"Sua necessidade,<br> nosso compromisso!"</p>
-      <div class="media-social">
-        <img src="images/img-home/facebook-square-brands 1.png" alt="facebook">
-        <img src="images/img-home/whatsapp-square-brands 1.png" alt="whatsapp">
-        <img src="images/img-home/instagram-brands (1) 1.png" alt="instagram">
-      </div>
-    </div>
-    <div class="lista">
-      <nav>
-        <h4>Institucional</h4>
-          <ul>
-              <li>
-                <a href="">Contatos</a>
-              </li>
-              <li>
-                <a href="">Suporte</a>
-              </li>
-              <li>
-                <a href="">Política de Privacidade</a>
-              </li>
-              <li>
-                <a href="">Meus pedidos</a>
-              </li>
-          </ul>
-        </nav>
-      </div>
-    <div class="lista">
-      <nav>
-        <h4>Categorias</h4>
-        <ul>
-          <li>
-            <a href="">Alimentos</a>
-          </li>
-          <li>
-            <a href="/paginaprodutos.html">Produtos de limpeza</a>
-          </li>
-          <li>
-            <a href="">Bebidas</a>
-          </li>
-          <li>
-            <a href="">Bebidas alcóolicas</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </footer>
+  
+  <%- include("./partials/footer")  %> 
 
   <script>
     let slideIndex = 1;

@@ -15,40 +15,7 @@
 <body>
   <main>
     <!-- ABRE HEADER -->
-    <header>
-    
-      <div class="logoeham">
-        <div id="ham">
-          <img src="/images/imgprodutos/hamburger31.png" alt="">
-        </div>
-        <div class="logo">
-          <img src="/images/imgprodutos/logo1.jpg" alt="">
-        </div>
-      </div>
-  
-      <div class="container">
-        <input id="pesquisa" type="text" placeholder="Buscar...">
-        <div class="lupa">
-          <img src="/images/imgprodutos/lupa40.png" alt="">
-        </div>
-      </div>
-  
-      <div class="usuario">
-        <div class="usuario-container">
-          <div class="login">
-            <img src="/images/imgprodutos/usserlogin.png" alt="">
-          </div>
-          <div class="seta">
-            <img src="/images/imgprodutos/seta.png" alt="">
-          </div>
-        </div>
-  
-        <div class="carrinho">
-          <img src="/images/imgprodutos/carrinho.png" alt="">
-        </div>
-  
-      </div>
-    </header>
+    <%- include('./partials/header')  %> 
   <!-- FECHA HEADER -->
 
 <!-- ABRE SETAS -->
@@ -158,6 +125,7 @@
     </section>
     <!-- FECHA PRODUTOS -->
   </main>
+  <%- include('./partials/footer')  %> 
 </body>
 </html>
 
