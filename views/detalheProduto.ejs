@@ -14,35 +14,8 @@
 </head>
 
 <!-- HEADER STARTS -->
-<header>
-  <div class="logoeham">
-    <div id="ham">
-      <img src="/images/img-comprar/hamburger.png" alt="hamburger">
-    </div>
-    <div>
-      <img id="logo" src="/images/img-comprar/logo1-1.jpeg" alt="logo">
-    </div>
-  </div>
-  <div class="barra">
-    <input class="barrabusca" type="text" placeholder="Busca...">
-    <div class="lupaetxt">
-      <img class="lupa" src="/images/img-comprar/lupa.png" alt="lupa">
-      <p>buscar</p>
-    </div>
-  </div>
-  <div class="usuario">
-    <div class="login">
-      <img src="/images/img-comprar/usserlogin.png" alt="usuario login">
-      <div class="seta">
-        <p>Entrar</p>
-        <img src="/images/img-comprar/seta.png" alt="seta para baixo">
-      </div>
-    </div>
-  </div>
-  <div class="carro">
-    <img src="/images/img-comprar/carrinho.png" alt="carrinho compra">
-  </div>
-</header>
+
+<%- include('./partials/header')  %> 
 <!-- HEADER ENDS -->
 <body>
     <div class="nomeProduto">
@@ -110,6 +83,7 @@
   </section>
   <section class="produtos2">
      <!-- SEÇÃO PRODUTOS ENDS-->
+<%- include('./partials/footer')  %>      
 </body>
 
 </html>
