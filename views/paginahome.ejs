@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/stylehome.css">
+  <link rel="stylesheet" href="stylesheets/styleHome.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
@@ -13,46 +13,20 @@
   </title>
 </head>
 <body>
-  <header>  
-    <div class="logoeham">
-      <div id="ham">
-        <img src="img-home/hamburger.png" alt="hamburger">
-      </div>
-      <div>
-        <img id="logo" src="img-home/logo1.jpg" alt="logo">
-      </div>
-    </div>
-    <div class="barra">
-      <input class="barrabusca" type="text" placeholder="Busca...">
-      <div class="lupaetxt">
-        <img class="lupa" src="img-home/lupa.png" alt="lupa">
-      <p>buscar</p>
-      </div>
-    </div>
-    <div class="usuario">
-      <div class="login">
-        <img src="img-home/usserlogin.png" alt="usuario login"> 
-      <div class="seta">
-        <p>Entrar</p>
-        <img src="img-home/seta.png" alt="seta para baixo">
-      </div>
-      </div>
-    </div>  
-    <div class="carro">
-      <img src="img-home/carrinho.png" alt="carrinho compra">
-    </div>
-  </header>
+
+  <%- include("./partials/header")  %> 
+  
   <main>
     <div class="aviso">
            
        <marquee behavior="" direction="">
         <div class="txt">
           <div>
-            <img class="caminhao" src="img-home/caminhaocopia.png" alt="">
+            <img class="caminhao" src="images/img-home/caminhaocopia.png" alt="">
           </div>
           <p>Entregas grátis com compras acima de 100R$</p>
           <div>
-            <img class="caminhao" src="img-home/caminhao.png" alt="">
+            <img class="caminhao" src="images/img-home/caminhao.png" alt="">
           </div>
         </div>
        </marquee>
@@ -62,13 +36,13 @@
     <div class="slideshow-container">
 
       <div class="mySlides fade">
-        <img src="img-home/produtos.jpeg" style="width:100%">
+        <img src="images/img-home/produtos.jpeg" style="width:100%">
       </div>
       <div class="mySlides fade">
-        <img src="img-home/qualita.jpeg" style="width:100%">
+        <img src="images/img-home/qualita.jpeg" style="width:100%">
       </div>
       <div class="mySlides fade">
-        <img src="img-home/budweiser.jpeg" style="width:100%">
+        <img src="images/img-home/budweiser.jpeg" style="width:100%">
       </div>      
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -84,31 +58,31 @@
       <div class="titulo"><h2>Ofertas</h2></div>
       <section class="produtos1">
         <section class="produto">
-          <img src="img-home/feijão.jpeg" alt="imagem produto" >
+          <img src="images/img-home/feijão.jpeg" alt="imagem produto" >
           <p class="nome">NOME PRODUTO</p>
           <p>R$00,00</p>
           <button class="botao1">Adicione ao carrinho</button> 
         </section>
         <section class="produto">
-          <img src="img-home/cerveja.jpeg" alt="imagem produto" >
+          <img src="images/img-home/cerveja.jpeg" alt="imagem produto" >
           <p class="nome">NOME PRODUTO</p>
           <p>R$00.00</p>
           <button class="botao1">Adicione ao carrinho</button> 
         </section>
         <section class="produto">
-          <img src="img-home/leite.jpeg" alt="imagem produto">
+          <img src="images/img-home/leite.jpeg" alt="imagem produto">
           <p class="nome">NOME PRODUTO</p>
           <p>R$00,00</p>
           <button class="botao1">Adicione ao carrinho</button> 
         </section>
         <section class="produto">
-          <img src="img-home/oleo.jpeg" alt="imagem produto" >
+          <img src="images/img-home/oleo.jpeg" alt="imagem produto" >
           <p class="nome">NOME PRODUTO</p>
           <p>R$00,00</p>
           <button class="botao1">Adicione ao carrinho</button> 
         </section>
         <section class="produto">
-          <img src="img-home/ovos.jpeg" alt="imagem produto" >
+          <img src="images/img-home/ovos.jpeg" alt="imagem produto" >
           <p class="nome">NOME PRODUTO</p>
           <p>R$00,00</p>
           <button class="botao1">Adicione ao carrinho</button> 
@@ -117,31 +91,31 @@
       <div class="titulo"><h2>Mais vendidos</h2></div>
       <section class="produtos2">
         <section class="produto">
-          <img src="img-home/papel.jpeg" alt="imagem produto">
+          <img src="images/img-home/papel.jpeg" alt="imagem produto">
           <p class="nome">NOME PRODUTO</p>
           <p>R$00,00</p>
           <button class="botao1">Adicione ao carrinho</button> 
         </section>
-        <section class="produto" alt="imagem produto">
-          <img src="img-home/SBP.jpeg" >
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto">
-          <img src="img-home/cafe.jpeg" alt="imagem produto" >
+        <section class="produto" alt="images produto">
+          <img src="images/img-home/SBP.jpeg" alt="imagem produto" >
           <p class="nome">NOME PRODUTO</p>
           <p>R$00,00</p>
           <button class="botao1">Adicione ao carrinho</button> 
         </section>
         <section class="produto">
-          <img src="img-home/detergente.jpeg" alt="imagem produto">
+          <img src="images/img-home/cafe.jpeg" alt="imagem produto" >
           <p class="nome">NOME PRODUTO</p>
           <p>R$00,00</p>
           <button class="botao1">Adicione ao carrinho</button> 
         </section>
         <section class="produto">
-          <img src="img-home/pepsi.jpeg" alt="imagem produto">
+          <img src="images/img-home/detergente.jpeg" alt="imagem produto">
+          <p class="nome">NOME PRODUTO</p>
+          <p>R$00,00</p>
+          <button class="botao1">Adicione ao carrinho</button> 
+        </section>
+        <section class="produto">
+          <img src="images/img-home/pepsi.jpeg" alt="imagem produto">
           <p class="nome">NOME PRODUTO</p>
           <p>R$00,00</p>
           <button class="botao1">Adicione ao carrinho</button> 
@@ -150,31 +124,31 @@
       <div class="titulo"><h2>Mais procurados</h2></div>
         <section class="produtos3">
           <section class="produto">
-            <img src="img-home/toddy.jpeg" alt="imagem produto">
+            <img src="images/img-home/toddy.jpeg" alt="imagem produto">
             <p class="nome">NOME PRODUTO</p>
             <p>R$00,00</p>
             <button class="botao1">Adicione ao carrinho</button> 
           </section>
           <section class="produto">
-            <img src="img-home/creme.jpeg" alt="imagem produto">
+            <img src="images/img-home/creme.jpeg" alt="imagem produto">
             <p class="nome">NOME PRODUTO</p>
             <p>R$00,00</p>
             <button class="botao1">Adicione ao carrinho</button> 
           </section>
           <section class="produto">
-            <img src="img-home/leiteninho.jpeg" alt="imagem produto">
+            <img src="images/img-home/leiteninho.jpeg" alt="imagem produto">
             <p class="nome">NOME PRODUTO</p>
             <p>R$00,00</p>
             <button class="botao1">Adicione ao carrinho</button> 
           </section>
           <section class="produto">
-            <img src="img-home/chocolate.jpeg" alt="imagem produto">
+            <img src="images/img-home/chocolate.jpeg" alt="imagem produto">
             <p class="nome">NOME PRODUTO</p>
             <p>R$00,00</p>
             <button class="botao1">Adicione ao carrinho</button> 
           </section>
           <section class="produto">
-            <img src="img-home/suco.jpeg" alt="imagem produto">
+            <img src="images/img-home/suco.jpeg" alt="imagem produto">
             <p class="nome">NOME PRODUTO</p>
             <p>R$00,00</p>
             <button class="botao1">Adicione ao carrinho</button> 
@@ -184,55 +158,8 @@
     </section>
  
   </main>
-  <footer>
-    <div class="logo-footer">
-      <img src="img-home/logo1.jpg" alt="imagem logo">
-      <p>"Sua necessidade,<br> nosso compromisso!"</p>
-      <div class="media-social">
-        <img src="img-home/facebook-square-brands 1.png" alt="facebook">
-        <img src="img-home/whatsapp-square-brands 1.png" alt="whatsapp">
-        <img src="img-home/instagram-brands (1) 1.png" alt="instagram">
-      </div>
-    </div>
-    <div class="lista">
-      <nav>
-        <h4>Institucional</h4>
-          <ul>
-              <li>
-                <a href="">Contatos</a>
-              </li>
-              <li>
-                <a href="">Suporte</a>
-              </li>
-              <li>
-                <a href="">Política de Privacidade</a>
-              </li>
-              <li>
-                <a href="">Meus pedidos</a>
-              </li>
-          </ul>
-        </nav>
-      </div>
-    <div class="lista">
-      <nav>
-        <h4>Categorias</h4>
-        <ul>
-          <li>
-            <a href="">Alimentos</a>
-          </li>
-          <li>
-            <a href="/paginaprodutos.html">Produtos de limpeza</a>
-          </li>
-          <li>
-            <a href="">Bebidas</a>
-          </li>
-          <li>
-            <a href="">Bebidas alcóolicas</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </footer>
+  
+  <%- include("./partials/footer")  %> 
 
   <script>
     let slideIndex = 1;

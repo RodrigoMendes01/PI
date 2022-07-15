@@ -6,82 +6,103 @@
 body {
   font-family: "Barlow";
 }
+/* HEADER START */
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: red;
+  height: 15vh;
 }
-header .logoeham {
+.logoeham {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  width: 15%;
+  height: 80%;
+}
+#ham, .logo {
+  display: flex;
+}
+.logo {
+  width: 45%;
+  height: 100%;
 }
 #ham {
-  display: flex;
-  height: 5vh ;
-  padding-left: 10%;
+  justify-content: center;
+  width: 37%;
+  height: 35%;
 }
-#logo {
-  display: flex;
-  padding-left: 60%;
-}
-.barra {
-  display: flex;
-  margin-left: 10%;
-  background-color: brown;
-  width: 50%;
-  height: 40px;
-  border-radius: 8px;
-}
-.barrabusca {
-  width: 80%;
-  border-radius: 5px;
-  padding-left: 5px;
-}
-.barra .lupa {
-  display: flex;
-  height: 70%;
-  margin-top: 0.5%;
-  margin-left: 1%;
-}
-.lupaetxt {
+.container {
   display: flex;
   align-items: center;
-  padding-left: 1%;
+  background-color: brown;
+  width: 55%;
+  height: 35%;
+  gap: 4%;
+  border-radius: 7px;
 }
-.lupaetxt p {
-  display: flex;
-  font-size: 15px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
-  padding-left: 10%;
+#pesquisa {
+  border-radius: 6px;
+  border: 0;
+  width: 85%;
+  height: 100%;
+  padding-left: 8px;
 }
-.usuario, .login {
+.lupa {
   display: flex;
   justify-content: center;
-  padding-left: 7%;
+  align-items: center;
+  width: max-content;
+  height: 90%;
+}
+.lupa img {
+ height: 90%;
+ width: 95%
+}
+.usuario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80%;
+  width: 22%;
 }
 .login {
-  height: 60px;
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+  max-height: max-content;
+  
+}
+.login img {
+  width: 4vw;
 }
 .seta {
   display: flex;
-  height: 50%;
-  margin-top: 13%;
+  align-items: center;
+  max-width: max-content;
+  max-height: max-content;
 }
 .seta img {
-  margin-left: 10%;
+  width: 2vw;
 }
-.seta p {
-  font-size: 20px;
-  color: white;
-}
-.carro {
+.usuario .carrinho {
   display: flex;
-  height: 50px;
-  padding-left: 6%;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: max-content;
+  max-height: max-content;
 }
+.carrinho img {
+  width: 6vw;
+}
+.usuario-container {
+  display: flex;
+  align-items: center; 
+}
+/* HEADER END */
+
+/* MAIN START */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -213,6 +234,9 @@ p {
   color: #dd0000;
   margin-left: 1%;
 }
+/* MAIN END */
+
+/* FOOTER START */
 footer {
   display: flex;
   justify-content: space-between;
@@ -250,4 +274,4 @@ footer .lista li, footer .lista a {
 footer .lista h4 {
   color: white;
 }
-
+/* FOOTER END */
