@@ -11,14 +11,18 @@ header {
   justify-content: center;
   align-items: center;
   background-color: red;
-  height: 13vh;
+  height: 14vh;
 }
 header .logo {
-  padding: 2px 2px 2px 2px;
+  display: flex;
+  justify-content: center;
+  height: 95%;
+  width: 7%;
 }
 header .logo img {
-  width: 95%;
+  height: 100%;
 }
+
 main {
   display: flex;
   justify-content: center;
@@ -67,23 +71,37 @@ main .jumbotron .sobrenosimg img {
 }
 footer {
   display: flex;
-  padding-left: 3%;
-  padding-right: 10%;
+  padding: 0px 30px 0px 30px ;
   justify-content: space-between;
   align-items: center;
-  height: 28.5vh;
-  
+  height: 30vh;
   background-color: red;
 }
 footer .logoecontato {
   display: flex;
-  width: 37%;
+  background-color: gray;
+  width: 60%;
+  height: 80%;
+}
+footer .logo {
+  display: flex;
+  height: 80%;
+  background-color: aqua;
+  width: 15%;
+}
+footer .logo img {
+  height: 70%;
 }
 footer .endereco {
+  width: 70%;
+  height: 100%;
   display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: aquamarine;
+  padding-top: 12px;
   color: #E4E3DF;
-  font-size: 15px;
-  padding-left: 3%;
+  font-size: .9em;
 }
 footer .contatos {
   display: flex;
@@ -96,46 +114,12 @@ footer .contatos .whatsapp img, .email img {
   display: flex;
   width: 30px;
 }
-@media (max-width: 480px) {
-  .jumbotron {
+@media (min-width: 320px) and (max-width: 667px) {
+  main .jumbotron {
     flex-direction: column;
-    align-items: center; 
-  }
-  main .jumbotron .sobrenos {
-    padding: 3% 1%;
-  }
-  main .jumbotron .sobrenos h1 {
-    font-size: 2em  ;
-  }
-  .sobrenosimg {
-    justify-content: center;
-    padding: 20px 5px;
-  }
-  main .jumbotron .sobrenosimg .mercado img {
-    width: 100%;
+    align-items: center;
   }
   footer .logoecontato {
-    flex-direction: column;
-    width: 90%;
+    justify-content: space-between;
   }
-  footer .logoecontato .logo {
-    width: 50%;
-    height: 30%;
-  }
-  footer .logoecontato .logo img {
-    width: 60%;
-  }
-  footer .endereco {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-  footer .logoecontato {
-    flex-direction: column;
-    width: 90%;
-  }
-}
-@media (min-width: 769px) and (max-width: 1279px) {
-  
 }
