@@ -264,5 +264,383 @@
    "preco": "R$43,00",
    "imagem": "vinho-tinto-kosher.webp",
    "descricao": {}
-  }
+  },
+  {
+    "id": 39,
+    "nome": "Manteiga Aviação 200g",
+    "preco": "R$8,20",
+    "imagem": "manteiga-aviacao.webp",
+    "descricao": {}
+   },
+   {
+    "id": 40,
+    "nome": "Manteiga Qualy com Sal 500g",
+    "preco": "R$18,99",
+    "imagem":  "manteiga-qualy-500g-c-sal.png",
+    "descricao": {}
+   },
+   {
+    "id": 41,
+    "nome": "Requeijão Vigor 200g",
+    "preco": "R$5,99",
+    "imagem": "requeijao-vigor.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 42,
+    "nome": "Requeijão Light Vigor 200g",
+    "preco": "R$5,99",
+    "imagem": "requeijao-light.png",
+    "descricao": {}
+   },
+   {
+    "id": 43,
+    "nome": "Leite Integral Italac 1L",
+    "preco": "R$5,35",
+    "imagem": "leite-integral-italac.webp",
+    "descricao": {}
+   },
+   {
+    "id": 44,
+    "nome": "Leite Semidesnatado Italac 1L",
+    "preco": "R$5,40",
+    "imagem": "leite-semi-italac.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 45,
+    "nome": "Leite Desnatado Italac 1L",
+    "preco": "R$5,50",
+    "imagem": "leite-des-italac.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 46,
+    "nome": "Danone Morango 1,25kg",
+    "preco": "R$12,00",
+    "imagem": "danone.png",
+    "descricao": {}
+   },
+   {
+    "id": 47,
+    "nome": "Iogurte Activia Morango 600g",
+    "preco": "R$14,50",
+    "imagem": "iogurte-activia.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 48,
+    "nome": "Iogurte Grego Batavo 100g",
+    "preco": "R$2,10",
+    "imagem": "batavo-grego.webp",
+    "descricao": {}
+   },
+   {
+    "id": 49,
+    "nome": "Leite em Pó Piracanjuba 800g",
+    "preco": "R$17,99",
+    "imagem": "po-piracanjuba.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 50,
+    "nome": "Creme de Leite Piracanjuba",
+    "preco": "R$3,60",
+    "imagem": "creme-pira.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 51,
+    "nome": "Leite Condensado Moça 395g",
+    "preco": "R$5,90",
+    "imagem": "cond-moca.webp",
+    "descricao": {}
+   },
+   {
+    "id": 52,
+    "nome": "Toddynho 200ml",
+    "preco": "R$1,25",
+    "imagem": "toddyinho.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 53,
+    "nome": "Creme de Leite Zero Lactose",
+    "preco": "R$3,90",
+    "imagem": "cl-zero.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 54,
+    "nome": "Queijo Mussarela 150g",
+    "preco": "R$7,15",
+    "imagem": "qm-president.png",
+    "descricao": {}
+   },
+   {
+    "id": 55,
+    "nome": "Queijo Prato President 150g",
+    "preco": "R$6,90",
+    "imagem": "qp-president.png",
+    "descricao": {}
+   },
+   {
+    "id": 56,
+    "nome": "Queijo Gorgonzola 200g",
+    "preco": "R$17,90",
+    "imagem": "gorg.png",
+    "descricao": {}
+   },
+  {
+    "id": 57,
+    "nome": "Queijo Parmesão 195g",
+    "preco": "R$19,99",
+    "imagem": "parmesao.webp",
+    "descricao": {}
+   },
+  {
+    "id": 58,
+    "nome": "Queijo Cheddar 120g",
+    "preco": "R$8,00",
+    "imagem": "cheddar.jpeg",
+    "descricao": {}
+   },
+  {
+    "id": 59,
+    "nome": "Queijo Provolone 200g",
+    "preco": "R$14,50",
+    "imagem": "provolone.png",
+    "descricao": {}
+   },
+  {
+    "id": 60,
+    "nome": "Ricota Fresca 400g",
+    "preco": "R$12,00",
+    "imagem": "ricota.jpeg",
+    "descricao": {}
+   },
+  {
+    "id": 61,
+    "nome": "Queijo do Reino 200g",
+    "preco": "R$20,30",
+    "imagem": "reino.jpeg",
+    "descricao": {}
+   },
+  {
+    "id": 62,
+    "nome": "Presunto Cozido 200g",
+    "preco": "R$6,00",
+    "imagem": "presunto.jpeg",
+    "descricao": {}
+   },
+  {
+    "id": 63,
+    "nome": "Peito de Peru 200g",
+    "preco": "R$6,99",
+    "imagem": "peito-peru.jpeg",
+    "descricao": {}
+   },
+  {
+    "id": 64,
+    "nome": "Mortadela Perdigão 200g",
+    "preco": "R$5,99",
+    "imagem": "mortadela.jpeg",
+    "descricao": {}
+   },
+  {
+    "id": 65,
+    "nome": "Salame Perdigão 100g",
+    "preco": "R$10,00",
+    "imagem": "salame.jpeg",
+    "descricao": {}
+   },
+  {
+    "id": 66,
+    "nome": "Linguiça Calabresa 400g",
+    "preco": "R$13,60",
+    "imagem": "calabresa.jpeg",
+    "descricao": {}
+   },
+  {
+    "id": 67,
+    "nome": "Linguiça Paio 400g",
+    "preco": "R$16,95",
+    "imagem": "paio.png",
+    "descricao": {}
+   },
+  {
+    "id": 68,
+    "nome": "Salsicha Hot Dog 500g",
+    "preco": "R$10,00",
+    "imagem": "salsicha.png",
+    "descricao": {}
+   },
+  {
+    "id": 69,
+    "nome": "Salsicha de Frango 500g",
+    "preco": "R$10,50",
+    "imagem": "sals-frango.jpeg",
+    "descricao": {}
+   },
+  
+    "id": 70,
+    "nome": "Picanha Friboi 1kg",
+    "preco": "R$79,00",
+    "imagem": "picanha.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 71,
+    "nome": "Maminha Friboi 1kg",
+    "preco": "R$68,99",
+    "imagem": "maminha.webp",
+    "descricao": {}
+   },
+   {
+    "id": 72,
+    "nome": "Contra-Filé Friboi 1kg",
+    "preco": "R$58,00",
+    "imagem": "contra-file.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 73,
+    "nome": "Coração de Alcatra 1kg",
+    "preco": "R$61,00",
+    "imagem": "c-alcatra.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 74,
+    "nome": "Cupim Friboi 1kg",
+    "preco": "R$49,00",
+    "imagem": "cupim.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 75,
+    "nome": "Fraldinha Friboi 1kg",
+    "preco": "R$47,00",
+    "imagem": "fraldinha.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 76,
+    "nome": "Bife Ancho Friboi 1kg",
+    "preco": "R$45,99",
+    "imagem": "bife-ancho.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 77,
+    "nome": "Carne Moida Acém 500g",
+    "preco": "R$17,50",
+    "imagem": "carnemoida-acem.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 78,
+    "nome": "Carne Moída Futuro 270g",
+    "preco": "R$11,10",
+    "imagem": "futuro.png",
+    "descricao": {}
+   },
+   {
+    "id": 79,
+    "nome": "Filé Peito de Frango 1kg",
+    "preco": "R$16,99",
+    "imagem": "f-peito.png",
+    "descricao": {}
+   },
+   {
+    "id": 80,
+    "nome": "Coxas de Frango Sadia 1kg",
+    "preco": "R$15,90",
+    "imagem": "coxa.png",
+    "descricao": {}
+   },
+   {
+    "id": 81,
+    "nome": "Sobrecoxas de Frango 1kg",
+    "preco": "R$15,00",
+    "imagem": "sobrecoxa.png",
+    "descricao": {}
+   },
+   {
+    "id": 82,
+    "nome": "Frango Inteiro Natto 2kg",
+    "preco": "R$28,20",
+    "imagem": "fcompleto.png",
+    "descricao": {}
+   },
+   {
+    "id": 83,
+    "nome": "Frango a Passarinho Temp. 1kg",
+    "preco": "R$18,70",
+    "imagem": "passarinho-t.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 84,
+    "nome": "Frango a Passarinho 1kg",
+    "preco": "R$17,05",
+    "imagem": "passarinho.png",
+    "descricao": {}
+   },
+   {
+    "id": 85,
+    "nome": "Coração de Galinha 1kg",
+    "preco": "R$31,00",
+    "imagem": "coracao.png",
+    "descricao": {}
+   },
+   {
+    "id": 86,
+    "nome": "File de Salmão Noronha 1kg",
+    "preco": "R$54,00",
+    "imagem": "salmao.webp",
+    "descricao": {}
+   },
+   {
+    "id": 87,
+    "nome": "Lombos de Bacalhau 1kg",
+    "preco": "R$83,80",
+    "imagem": "bacalhau.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 88,
+    "nome": "Filé de Tilápia 800g",
+    "preco": "R$33,20",
+    "imagem": "tilapia.webp",
+    "descricao": {}
+   },
+   {
+    "id": 89,
+    "nome": "Camarão Descascado 400g",
+    "preco": "R$22,00",
+    "imagem": "camarao.webp",
+    "descricao": {}
+   },
+   {
+    "id": 90,
+    "nome": "Anéis de Lula Swift 400g",
+    "preco": "R$31,60",
+    "imagem": "lula.webp",
+    "descricao": {}
+   },
+   {
+    "id": 91,
+    "nome": "Vieira Descascada 200g",
+    "preco": "R$59,00",
+    "imagem": "vieira.jpeg",
+    "descricao": {}
+   },
+   {
+    "id": 92,
+    "nome": "Tentáculos de Polvo 200g",
+    "preco": "R$37,45",
+    "imagem": "t-polvo.jpeg",
+    "descricao": {}
+   }
  ]
