@@ -4,7 +4,19 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: red;
+<<<<<<< HEAD
+<<<<<<< HEAD:public/stylesheets/styleprodutos.css
   height: 15vh;
+=======
+  height: 13vh;
+  gap: 4%;
+  padding: 0;
+  margin: -8px;
+  box-sizing: border-box;
+>>>>>>> f2ab7bc947865e66bd07afb616be26281b45cf22:css/styleprodutos.css
+=======
+  height: 15vh;
+>>>>>>> 7b09a5876f523494f72e232e901dec73c03b49cf
 }
 .logoeham {
   display: flex;
