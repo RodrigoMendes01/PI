@@ -4,14 +4,28 @@
   "nome": "Água Sanitária Dragão 1L",
   "preco": "R$1,49",
   "imagem": "601_1.jpeg",
-  "descricao": {}
+  "descricao": {
+   "marca": "Dragão",
+   "altura": "35cm",
+   "profundidade": "20cm",
+   "largura": "10cm",
+   "peso": "0,5kg" 
+  },
+  "categoria": "Limpeza"
   },
   {
    "id": 2,
    "nome": "Detergente Neutro Ipê 500ml",
    "preco": "R$1,89",
    "imagem": "detergente.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Dragão",
+    "altura": "35cm",
+    "profundidade": "20cm",
+    "largura": "10cm",
+    "peso": "0,5kg" 
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 3,

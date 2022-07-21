@@ -20,11 +20,11 @@
 <body>
     <div class="nomeProduto">
       <div>
-      <img src="/images/img-comprar/amaciante.jpeg">
+      <img src="/images/imgprodutos/<%= produto.imagem %> ">
       </div>
       <div class="descricao">
-        <h1>Amaciante Comfort 1L</h1>
-        <h4> R$14,75 </h4>
+        <h1><%= produto.nome %> </h1>
+        <h4> <%= produto.preco %>   </h4>
         <label for="cep">Calcule o frete e prazo de entrega</label>
         <input type="number and sign" placeholder="CEP" required placeholder="CEP" name="cep" id="cep">
         <button type="submit" id="consultar">Consultar</button>
@@ -34,15 +34,15 @@
   <h4 id="detalhesDoProduto">Detalhes do produto</h4>
   <div class="caracteristicas-do-produto">
     <hr>
-    <p>Marca: Comfort</p>
+    <p>Marca: <%= produto.descricao.marca %> </p>
     <hr>
-    <p>Altura do produto (cm): 25</p>
+    <p> Altura: <%= produto.descricao.altura %>  (cm)</p>
     <hr>
-    <p>Largura do produto (cm): 12</p>
+    <p> Largura: <%= produto.descricao.largura %>  (cm)</p>
     <hr>
-    <p>Peso líquido (kg): 1,072</p>
+    <p>Peso líquido (kg): <%= produto.descricao.peso %> </p>
     <hr>
-    <p>Profundidade do produto (cm): 7</p>
+    <p>Profundidade do produto: <%= produto.descricao.profundidade %>  (cm)</p>
     <hr>
   </div>
   <h4 id="veja-tambem">Veja também</h4>
@@ -50,36 +50,15 @@
   <br>
    <!-- SEÇÃO PRODUTOS STARTS-->
   <section class="produtos1">
+   <% produtosRelacionados.forEach(item => { %>
     <section class="produto">
-      <img src="/images/img-comprar/aguasanitaria.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$1,49</p>
+      <img src="/images/imgprodutos/<%= item.imagem %> " width="60%" height="127vh">
+      <p class="nome"><%= item.nome %> </p>
+      <p><%= item.preco %> </p>
       <button class="botao1">Adicione ao carrinho</button>
     </section>
-    <section class="produto">
-      <img src="/images/img-comprar/detergente.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$1,89</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
-    <section class="produto">
-      <img src="/images/img-comprar/vejacozinha.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$7,10</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
-    <section class="produto">
-      <img src="/images/img-comprar/alcool.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$00,00</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
-    <section class="produto">
-      <img src="/images/img-comprar/esponja.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$00,00</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
+   <% }) %>
+      
   </section>
   <section class="produtos2">
      <!-- SEÇÃO PRODUTOS ENDS-->
