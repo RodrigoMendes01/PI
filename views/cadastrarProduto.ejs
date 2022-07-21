@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheets/cadastrarProduto.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <%- include("./partials/header")  %> 
+
+  <main>
+    <div id="form">
+      <div id="title">
+        <h2>Cadastro de produto</h2>
+      </div>
+      <div id="form-edit">
+        <form action="">
+            <div class="input-edit">
+              <label for="name" class="form-label">Nome do produto:</label>
+              <input type="text" id="name" name="name" placeholder="Ex: Óleo de Soja SOYA Garrafa 900ml  " class="form-input">
+            </div>
+            <div class="input-edit">
+              <label for="price" class="form-label">Preço do produto:</label>
+              <input type="text" id="price" name="price" placeholder="Ex:10,99 " class="form-input">
+            </div>
+            <div class="input-edit">
+              <label for="discount" class="form-label">Desconto:</label>
+              <input type="text" id="discount" name="discount" placeholder="Ex: 10" class="form-input">
+            </div>
+            <div class="input-edit">
+              <label for="category" class="form-label">Categoria:</label>
+              <select id="categoria" name="category" id="category" class="form-input">
+                <option value=""></option>
+                <option value="in-sale">Cereais e Farináceos</option>
+                <option value="in-sale">Açougue</option>
+                <option value="in-sale">Frios e Laticínios</option>
+                <option value="in-sale">Bebidas</option>
+                <option value="in-sale">Higiene pessoal</option>
+                <option value="in-sale">Produtos de Limpeza</option>
+              </select>        
+            </div>
+            <div class="descricao">
+              <label for="description" class="form-label">Descrição:</label>
+              <textarea name="description" id="description" class="form-input" placeholder="Ex: "></textarea>
+            </div>
+            <div class="imagem-anexar">
+              <label class="form-label" for="image">Imagem do produto:</label>
+              <input class="form-input" type="file" name="image" id="image">
+            </div>
+            <div class="button">
+              <button id="btn"type="submit" class="buy-now-button">Cadastrar produto</button>  
+            </div> 
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
