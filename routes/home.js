@@ -5,5 +5,8 @@ const sobreController = require("../controllers/sobreController");
 
 router.get("/", homeController.index);
 router.get("/sobre", sobreController.index)
+router.get("/cadastrar", (req, res) => {
+  res.render("cadastrarProduto")
+})
 
 module.exports = router;
