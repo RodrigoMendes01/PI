@@ -656,5 +656,215 @@
     "preco": "R$37,45",
     "imagem": "t-polvo.jpeg",
     "descricao": {}
-   }
- ]
+   },
+  {
+  "id": 93,
+  "nome": "Maçã Gala Bandeija 500g",
+  "preco": 5.49,
+  "imagem": "maca-gala.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 94,
+  "nome": "Maracujá Azedo 350g",
+  "preco": 2.55,
+  "imagem": "maracuja.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 95,
+  "nome": "Abacaxi Pérola Unidade",
+  "preco": 8.15,
+  "imagem": "abacaxi.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 96,
+  "nome": "Banana Nanica 600g",
+  "preco": 3.69,
+  "imagem": "banana-n.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 97,
+  "nome": "Laranja Pêra 1kg",
+  "preco": 4.30,
+  "imagem": "laranja-p.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 98,
+  "nome": "Mamão Papaia 600g",
+  "preco": 8.20,
+  "imagem": "mamao-p.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 99,
+  "nome": "Banana Prata 600g",
+  "preco": 4.49,
+  "imagem": "banana-p.jpeg",
+  "descricao": {}
+ }, 
+ {
+  "id": 100,
+  "nome": "Maçã TURMA DA MÔNICA 1kg",
+  "preco": 10.15,
+  "imagem": "maca-tm.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 101,
+  "nome": "Abacate Unidade 800g",
+  "preco": 6.99,
+  "imagem": "abacate.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 102,
+  "nome": "Limão Tahiti 500g",
+  "preco": 1.99,
+  "imagem": "limao-t.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 103,
+  "nome": "Manga Tommy 500g",
+  "preco": 4.00,
+  "imagem": "manga-t.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 104,
+  "nome": "Tangerina Importada 300g",
+  "preco": 2.60,
+  "imagem": "tang-i.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 105,
+  "nome": "Uva Clara s/ Semente 500g",
+  "preco": 6.99,
+  "imagem": "uvaclara.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 106,
+  "nome": "Alface Americana Unidade",
+  "preco": 2.35,
+  "imagem": "alf-a.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 107,
+  "nome": "Alface Crespa Unidade",
+  "preco": 2.79,
+  "imagem": "alf-c.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 108,
+  "nome": "Inhame 1kg",
+  "preco": 7.00,
+  "imagem": "inhame.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 109,
+  "nome": "Alho Branco 1kg",
+  "preco": 19.00,
+  "imagem": "alho-b.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 110,
+  "nome": "Alho Poro 1kg",
+  "preco": 3.45,
+  "imagem": "alho-p.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 111,
+  "nome": "Brocólis 300g",
+  "preco": 8.99,
+  "imagem": "brocolis.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 112,
+  "nome": "Berinjela 1kg",
+  "preco": 5.50,
+  "imagem": "berinjela.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 113,
+  "nome": "Batata Inglesa 1kg",
+  "preco": 4.80,
+  "imagem": "batata-i.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 114,
+  "nome": "Beterraba 1kg",
+  "preco": 4.49,
+  "imagem": "beterraba.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 115,
+  "nome": "Cebola 1kg",
+  "preco": 4.60,
+  "imagem": "cebola.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 116,
+  "nome": "Tomate 500g",
+  "preco": 3.50,
+  "imagem": "tomate.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 117,
+  "nome": "Batata Doce 1kg",
+  "preco": 3.20,
+  "imagem": "batata-d.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 118,
+  "nome": "Pepino 1kg",
+  "preco": 5.30,
+  "imagem": "pepino.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 119, 
+  "nome": "Cenoura 1kg",
+  "preco": 4.10,
+  "imagem": "cenoura.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 120,
+  "nome": "Cebolinha Unidade",
+  "preco": 1.99,
+  "imagem": "cebolinha.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 121,
+  "nome": "Coentro Unidade",
+  "preco": 1.89,
+  "imagem": "coentro.jpeg",
+  "descricao": {}
+ },
+ {
+  "id": 122,
+  "nome": "Macaxeira 1kg",
+  "preco": 2.90,
+  "imagem": "macaxeira.jpeg",
+  "descricao": {}
+ }
+  ]
