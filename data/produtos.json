@@ -2,869 +2,2720 @@
 {
   "id": 1,
   "nome": "Água Sanitária Dragão 1L",
-  "preco": "R$1,49",
+  "preco": 1.49,
   "imagem": "601_1.jpeg",
   "descricao": {
    "marca": "Dragão",
-   "altura": "35cm",
-   "profundidade": "20cm",
-   "largura": "10cm",
-   "peso": "0,5kg" 
+   "altura": "0",
+   "largura": "0cm",
+   "peso": "0kg" 
   },
   "categoria": "Limpeza"
   },
   {
    "id": 2,
    "nome": "Detergente Neutro Ipê 500ml",
-   "preco": "R$1,89",
+   "preco": 1.89,
    "imagem": "detergente.webp",
    "descricao": {
-    "marca": "Dragão",
-    "altura": "35cm",
-    "profundidade": "20cm",
+    "marca": "ipê",
     "largura": "10cm",
-    "peso": "0,5kg" 
+    "peso": "0kg" 
    },
    "categoria": "Limpeza"
   },
   {
    "id": 3,
    "nome": "Desengordurante Veja 500ml",
-   "preco": "R$7,10",
+   "preco": 7.10,
    "imagem": "desengordurante-cozinha.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Veja",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 4,
    "nome": "Álcool Santa Cruz 1L",
-   "preco": "R$6,20",
+   "preco": 6.20,
    "imagem": "alcool-santacruz.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Santa Cruz",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 5,
    "nome": "Esponja Multi-Uso Scotch",
-   "preco": "R$5,99",
+   "preco": 5.99,
    "imagem": "esponja-multiuso-Scotch.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Scotch",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 6,
    "nome": "Limpa Vidros Veja 500ml",
-   "preco": "R$5,60",
+   "preco": 5.60,
    "imagem": "limpa-vidros-veja.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Veja",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 7,
    "nome": "Limpador Multi-Uso Veja",
-   "preco": "R$4,90",
+   "preco": 4.90,
    "imagem": "limpador-multiuso.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Veja",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 8,
    "nome": "Desinfetante Omo 1L",
-   "preco": "R$9,99",
+   "preco": 9.99,
    "imagem": "omo-desinfetante.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Omo",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 9,
    "nome": "Sabão Neutro Ipê 1kg",
-   "preco": "R$15,70",
+   "preco": 15.70,
    "imagem": "sabao-neutro-ipe.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Ipê",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 10,
    "nome": "Luvas de Borracha Sanro Soft",
-   "preco": "R$6,90",
+   "preco": 6.90,
    "imagem": "luvas-sanro-soft.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Sanro Soft",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 11,
    "nome": "Pano Multi-Uso Scotch",
-   "preco": "R$16,60",
+   "preco": 16.60,
    "imagem": "pano-multiuso-scotch.avif",
-   "descricao": {}
+   "descricao": {
+    "marca": "Scotch",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 12,
    "nome": "Sabão Líquido Ariel 1,2L",
-   "preco": "R$19,99",
+   "preco": 19.99,
    "imagem": "sabao-liquido-ariel.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Ariel",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 13,
    "nome": "Amaciante Comfort 1L",
-   "preco": "R$14,75",
+   "preco": 14.75,
    "imagem": "amaciante.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Comfort",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 14,
    "nome": "Sabão em Pó Omo 800g",
-   "preco": "R$14,50",
+   "preco": 14.50,
    "imagem": "sabao-po.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Omo",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 15,
    "nome": "Sapólio 250ml",
-   "preco": "R$7,15",
+   "preco": 7.15,
    "imagem": "sapolio.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Limpeza"
   },
   {
    "id": 16,
    "nome": "Escova Colgate",
-   "preco": "R$15,00",
+   "preco": 15.00,
    "imagem": "escova-colgate.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Colgate",
+    "largura": "10cm",
+    "peso": "0,5kg" 
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 17,
    "nome": "Condionador Pantene",
-   "preco": "R$7,60",
+   "preco": 7.60,
    "imagem": "pantene-condicionador.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Pantene",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 18,
    "nome": "Protex Sabonete Mãos",
-   "preco": "R$6,99",
+   "preco": 6.99,
    "imagem": "protex-maos.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Protex",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 19,
    "nome": "Sabonete Dove Em Barra",
-   "preco": "R$3,50",
+   "preco": 3.50,
    "imagem": "sabonete-dove.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Dove",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 20,
    "nome": "Shampoo Pantene",
-   "preco": "R$7,70",
+   "preco": 7.70,
    "imagem": "shampoo-pantene.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Pantene",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 21,
    "nome": "Pasta de Dente Colgate",
-   "preco": "R$8,90",
+   "preco": 8.90,
    "imagem": "pasta-colgate.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Colgate",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 22,
    "nome": "Papel Higiênico Neve",
-   "preco": "R$20,00",
+   "preco": 20.00,
    "imagem": "papel-higienico.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Neve",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 23,
    "nome": "Desodorante Rexona Power Dry",
-   "preco": "R$10,00",
+   "preco": 10.00,
    "imagem": "desodorante.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Rexona",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 24,
    "nome": "Desodorante Rexona Men",
-   "preco": "R$10,00",
+   "preco": 10.00,
    "imagem": "desodorante-masc.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Rexona",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Higiene Pessoal"
   },
   {
    "id": 25,
    "nome": "Água Mineral Crystal 500ml",
-   "preco": "R$1,49",
+   "preco": 1.49,
    "imagem": "agua-crystal.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Coca-Cola",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Água"
   },
   {
    "id": 26,
    "nome": "Água com Gás Crystal 500ml",
-   "preco": "R$1,69",
+   "preco": 1.69,
    "imagem": "agua-gas-crystal.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Coca-Cola",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Água"
   },
   {
    "id": 27,
    "nome": "Água Mineral Crystal 1,5L",
-   "preco": "R$2,50",
+   "preco": 2.50,
    "imagem": "agua-1.5l.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Coca-Cola",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Água"
   },
   {
    "id": 28,
    "nome": "Coca-Cola 350ml",
-   "preco": "R$2,20",
+   "preco": 2.20,
    "imagem": "coca-lata.png",
-   "descricao": {}
+   "descricao": {
+    "marca": "Coca-Cola",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Refrigerantes"
   },
   {
    "id": 29,
    "nome": "Guaraná 350ml",
-   "preco": "R$1,99",
+   "preco": 1.99,
    "imagem": "guaraná-350.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Guaraná",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Refrigerantes"
   },
   {
    "id": 30,
    "nome": "Cerveja Heineken 350ml",
-   "preco": "R$3,80",
+   "preco": 3.80,
    "imagem": "heineken.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Heineken",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Bebidas alcóolicas"
   },
   {
    "id": 31,
    "nome": "Cerveja Devassa 350ml",
-   "preco": "R$2,70",
+   "preco": 2.70,
    "imagem": "devassa.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Devassa",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Bebidas alcóolicas"
   },
   {
    "id": 32,
    "nome": "Cerveja Skol Pilsen 350ml",
-   "preco": "R$3,10",
+   "preco": 3.10,
    "imagem": "skol.wepb",
-   "descricao": {}
+   "descricao": {
+    "marca": "Skol",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Bebidas alcóolicas"
   },
   {
    "id": 33,
    "nome": "Suco de Uva DelValle 1L",
-   "preco": "R$7,20",
+   "preco": 7.20,
    "imagem": "uva-delvalle.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Coca-Cola",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Suco"
   },
   {
    "id": 34,
    "nome": "Suco de Laranja DelValle 1L",
-   "preco": "R$7,10",
+   "preco": 7.10,
    "imagem": "laranja-delvalle.jpeg",
-   "descricao": {}
+   "descricao": {
+    "marca": "Coca-Cola",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Suco"
   },
   {
    "id": 35,
    "nome": "Vinho Tinto Seco Chileno ",
-   "preco": "R$31,00",
+   "preco": 31.00,
    "imagem": "vinho-tinto-seco.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Bebidas alcóolicas"
   },
   {
    "id": 36,
    "nome": "Vinho Verde Casal Garcia",
-   "preco": "R$42,00",
+   "preco": 42.00,
    "imagem": "casal-garcia.png",
-   "descricao": {}
+   "descricao": {
+    "marca": "Garcia",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Bebidas alcóolicas"
   },
   {
    "id": 37,
    "nome": "Vinho Branco Monte da Serra",
-   "preco": "R$39,90",
+   "preco": 39.90,
    "imagem": "vinho-branco.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Monte de Serra",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Bebidas alcóolicas"
   },
   {
    "id": 38,
    "nome": "Vinho Tinto Casa di Luigi",
-   "preco": "R$43,00",
+   "preco": 43.00,
    "imagem": "vinho-tinto-kosher.webp",
-   "descricao": {}
+   "descricao": {
+    "marca": "Casa di Luigi",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Bebidas alcóolicas"
   },
   {
     "id": 39,
     "nome": "Manteiga Aviação 200g",
-    "preco": "R$8,20",
+    "preco": 8.20,
     "imagem": "manteiga-aviacao.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "Aviação",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 40,
     "nome": "Manteiga Qualy com Sal 500g",
-    "preco": "R$18,99",
+    "preco": 18.99,
     "imagem":  "manteiga-qualy-500g-c-sal.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "Qualy",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 41,
     "nome": "Requeijão Vigor 200g",
-    "preco": "R$5,99",
+    "preco": 5.99,
     "imagem": "requeijao-vigor.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Vigor",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 42,
     "nome": "Requeijão Light Vigor 200g",
-    "preco": "R$5,99",
+    "preco": 5.99,
     "imagem": "requeijao-light.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "Vigor",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 43,
     "nome": "Leite Integral Italac 1L",
-    "preco": "R$5,35",
+    "preco": 5.35,
     "imagem": "leite-integral-italac.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "Italac",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 44,
     "nome": "Leite Semidesnatado Italac 1L",
-    "preco": "R$5,40",
+    "preco": 5.40,
     "imagem": "leite-semi-italac.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Italac",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 45,
     "nome": "Leite Desnatado Italac 1L",
-    "preco": "R$5,50",
+    "preco": 5.50,
     "imagem": "leite-des-italac.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Italac",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 46,
     "nome": "Danone Morango 1,25kg",
-    "preco": "R$12,00",
+    "preco": 12.00,
     "imagem": "danone.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 47,
     "nome": "Iogurte Activia Morango 600g",
-    "preco": "R$14,50",
+    "preco": 14.50,
     "imagem": "iogurte-activia.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Activia",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 48,
     "nome": "Iogurte Grego Batavo 100g",
-    "preco": "R$2,10",
+    "preco": 2.10,
     "imagem": "batavo-grego.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "Batavo",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 49,
     "nome": "Leite em Pó Piracanjuba 800g",
-    "preco": "R$17,99",
+    "preco": 17.99,
     "imagem": "po-piracanjuba.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Piracanjuba",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 50,
     "nome": "Creme de Leite Piracanjuba",
-    "preco": "R$3,60",
+    "preco": 3.60,
     "imagem": "creme-pira.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Piracanjuba",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 51,
     "nome": "Leite Condensado Moça 395g",
-    "preco": "R$5,90",
+    "preco": 5.90,
     "imagem": "cond-moca.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "Moça",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 52,
     "nome": "Toddynho 200ml",
-    "preco": "R$1,25",
+    "preco": 1.25,
     "imagem": "toddyinho.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Toddynho",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 53,
     "nome": "Creme de Leite Zero Lactose",
-    "preco": "R$3,90",
+    "preco": 3.90,
     "imagem": "cl-zero.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 54,
     "nome": "Queijo Mussarela 150g",
-    "preco": "R$7,15",
+    "preco": 7.15,
     "imagem": "qm-president.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 55,
     "nome": "Queijo Prato President 150g",
-    "preco": "R$6,90",
+    "preco": 6.90,
     "imagem": "qp-president.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "President",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
    {
     "id": 56,
     "nome": "Queijo Gorgonzola 200g",
-    "preco": "R$17,90",
+    "preco": 17.90,
     "imagem": "gorg.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
   {
     "id": 57,
     "nome": "Queijo Parmesão 195g",
-    "preco": "R$19,99",
+    "preco": 19.99,
     "imagem": "parmesao.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
   {
     "id": 58,
     "nome": "Queijo Cheddar 120g",
-    "preco": "R$8,00",
+    "preco": 8.00,
     "imagem": "cheddar.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
   {
     "id": 59,
     "nome": "Queijo Provolone 200g",
-    "preco": "R$14,50",
+    "preco": 14.50,
     "imagem": "provolone.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
   {
     "id": 60,
     "nome": "Ricota Fresca 400g",
-    "preco": "R$12,00",
+    "preco": 12.00,
     "imagem": "ricota.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
   {
     "id": 61,
     "nome": "Queijo do Reino 200g",
-    "preco": "R$20,30",
+    "preco": 20.30,
     "imagem": "reino.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
   {
     "id": 62,
     "nome": "Presunto Cozido 200g",
-    "preco": "R$6,00",
+    "preco": 6.00,
     "imagem": "presunto.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Frios e Laticínios"
    },
   {
     "id": 63,
     "nome": "Peito de Peru 200g",
-    "preco": "R$6,99",
+    "preco": 6.99,
     "imagem": "peito-peru.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
   {
     "id": 64,
     "nome": "Mortadela Perdigão 200g",
-    "preco": "R$5,99",
+    "preco": 5.99,
     "imagem": "mortadela.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
   {
     "id": 65,
     "nome": "Salame Perdigão 100g",
-    "preco": "R$10,00",
+    "preco": 10.00,
     "imagem": "salame.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Perdigão",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
   {
     "id": 66,
     "nome": "Linguiça Calabresa 400g",
-    "preco": "R$13,60",
+    "preco": 13.60,
     "imagem": "calabresa.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
   {
     "id": 67,
     "nome": "Linguiça Paio 400g",
-    "preco": "R$16,95",
+    "preco": 16.95,
     "imagem": "paio.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
   {
     "id": 68,
     "nome": "Salsicha Hot Dog 500g",
-    "preco": "R$10,00",
+    "preco": 10.00,
     "imagem": "salsicha.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
   {
     "id": 69,
     "nome": "Salsicha de Frango 500g",
-    "preco": "R$10,50",
+    "preco": 10.50,
     "imagem": "sals-frango.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    { 
     "id": 70,
     "nome": "Picanha Friboi 1kg",
-    "preco": "R$79,00",
+    "preco": 79.00,
     "imagem": "picanha.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Friboi",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 71,
     "nome": "Maminha Friboi 1kg",
-    "preco": "R$68,99",
+    "preco": 68.99,
     "imagem": "maminha.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "Friboi",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 72,
     "nome": "Contra-Filé Friboi 1kg",
-    "preco": "R$58,00",
+    "preco": 58.00,
     "imagem": "contra-file.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Friboi",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 73,
     "nome": "Coração de Alcatra 1kg",
-    "preco": "R$61,00",
+    "preco": 61.00,
     "imagem": "c-alcatra.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Alcatra",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 74,
     "nome": "Cupim Friboi 1kg",
-    "preco": "R$49,00",
+    "preco": 49.00,
     "imagem": "cupim.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Friboi",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 75,
     "nome": "Fraldinha Friboi 1kg",
-    "preco": "R$47,00",
+    "preco": 47.00,
     "imagem": "fraldinha.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Friboi",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 76,
     "nome": "Bife Ancho Friboi 1kg",
-    "preco": "R$45,99",
+    "preco": 45.99,
     "imagem": "bife-ancho.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "Friboi",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 77,
     "nome": "Carne Moida Acém 500g",
-    "preco": "R$17,50",
+    "preco": 17.50,
     "imagem": "carnemoida-acem.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 78,
     "nome": "Carne Moída Futuro 270g",
-    "preco": "R$11,10",
+    "preco": 11.10,
     "imagem": "futuro.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 79,
     "nome": "Filé Peito de Frango 1kg",
-    "preco": "R$16,99",
+    "preco": 16.99,
     "imagem": "f-peito.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 80,
     "nome": "Coxas de Frango Sadia 1kg",
-    "preco": "R$15,90",
+    "preco": 15.90,
     "imagem": "coxa.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "Sadia",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 81,
     "nome": "Sobrecoxas de Frango 1kg",
-    "preco": "R$15,00",
+    "preco": 15.00,
     "imagem": "sobrecoxa.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 82,
     "nome": "Frango Inteiro Natto 2kg",
-    "preco": "R$28,20",
+    "preco": 28.20,
     "imagem": "fcompleto.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 83,
     "nome": "Frango a Passarinho Temp. 1kg",
-    "preco": "R$18,70",
+    "preco": 18.70,
     "imagem": "passarinho-t.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 84,
     "nome": "Frango a Passarinho 1kg",
-    "preco": "R$17,05",
+    "preco": 17.05,
     "imagem": "passarinho.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 85,
     "nome": "Coração de Galinha 1kg",
-    "preco": "R$31,00",
+    "preco": 31.00,
     "imagem": "coracao.png",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 86,
     "nome": "File de Salmão Noronha 1kg",
-    "preco": "R$54,00",
+    "preco": 54.00,
     "imagem": "salmao.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 87,
     "nome": "Lombos de Bacalhau 1kg",
-    "preco": "R$83,80",
+    "preco": 83.80,
     "imagem": "bacalhau.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 88,
     "nome": "Filé de Tilápia 800g",
-    "preco": "R$33,20",
+    "preco": 33.20,
     "imagem": "tilapia.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 89,
     "nome": "Camarão Descascado 400g",
-    "preco": "R$22,00",
+    "preco": 22.00,
     "imagem": "camarao.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 90,
     "nome": "Anéis de Lula Swift 400g",
-    "preco": "R$31,60",
+    "preco": 31.60,
     "imagem": "lula.webp",
-    "descricao": {}
+    "descricao": {
+    "marca": "Swift",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 91,
     "nome": "Vieira Descascada 200g",
-    "preco": "R$59,00",
+    "preco": 59.00,
     "imagem": "vieira.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
    {
     "id": 92,
     "nome": "Tentáculos de Polvo 200g",
-    "preco": "R$37,45",
+    "preco": 37.45,
     "imagem": "t-polvo.jpeg",
-    "descricao": {}
+    "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Peixaria e Açougue"
    },
   {
   "id": 93,
   "nome": "Maçã Gala Bandeija 500g",
   "preco": 5.49,
   "imagem": "maca-gala.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 94,
   "nome": "Maracujá Azedo 350g",
   "preco": 2.55,
   "imagem": "maracuja.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 95,
   "nome": "Abacaxi Pérola Unidade",
   "preco": 8.15,
   "imagem": "abacaxi.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 96,
   "nome": "Banana Nanica 600g",
   "preco": 3.69,
   "imagem": "banana-n.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 97,
   "nome": "Laranja Pêra 1kg",
   "preco": 4.30,
   "imagem": "laranja-p.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 98,
   "nome": "Mamão Papaia 600g",
   "preco": 8.20,
   "imagem": "mamao-p.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 99,
   "nome": "Banana Prata 600g",
   "preco": 4.49,
   "imagem": "banana-p.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  }, 
  {
   "id": 100,
   "nome": "Maçã TURMA DA MÔNICA 1kg",
   "preco": 10.15,
   "imagem": "maca-tm.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 101,
   "nome": "Abacate Unidade 800g",
   "preco": 6.99,
   "imagem": "abacate.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 102,
   "nome": "Limão Tahiti 500g",
   "preco": 1.99,
   "imagem": "limao-t.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 103,
   "nome": "Manga Tommy 500g",
   "preco": 4.00,
   "imagem": "manga-t.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 104,
   "nome": "Tangerina Importada 300g",
   "preco": 2.60,
   "imagem": "tang-i.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 105,
   "nome": "Uva Clara s/ Semente 500g",
   "preco": 6.99,
   "imagem": "uvaclara.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 106,
   "nome": "Alface Americana Unidade",
   "preco": 2.35,
   "imagem": "alf-a.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 107,
   "nome": "Alface Crespa Unidade",
   "preco": 2.79,
   "imagem": "alf-c.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 108,
   "nome": "Inhame 1kg",
   "preco": 7.00,
   "imagem": "inhame.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 109,
   "nome": "Alho Branco 1kg",
   "preco": 19.00,
   "imagem": "alho-b.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 110,
   "nome": "Alho Poro 1kg",
   "preco": 3.45,
   "imagem": "alho-p.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 111,
   "nome": "Brocólis 300g",
   "preco": 8.99,
   "imagem": "brocolis.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 112,
   "nome": "Berinjela 1kg",
   "preco": 5.50,
   "imagem": "berinjela.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 113,
   "nome": "Batata Inglesa 1kg",
   "preco": 4.80,
   "imagem": "batata-i.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 114,
   "nome": "Beterraba 1kg",
   "preco": 4.49,
   "imagem": "beterraba.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 115,
   "nome": "Cebola 1kg",
   "preco": 4.60,
   "imagem": "cebola.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 116,
   "nome": "Tomate 500g",
   "preco": 3.50,
   "imagem": "tomate.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 117,
   "nome": "Batata Doce 1kg",
   "preco": 3.20,
   "imagem": "batata-d.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 118,
   "nome": "Pepino 1kg",
   "preco": 5.30,
   "imagem": "pepino.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 119, 
   "nome": "Cenoura 1kg",
   "preco": 4.10,
   "imagem": "cenoura.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 120,
   "nome": "Cebolinha Unidade",
   "preco": 1.99,
   "imagem": "cebolinha.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 121,
   "nome": "Coentro Unidade",
   "preco": 1.89,
   "imagem": "coentro.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
  },
  {
   "id": 122,
   "nome": "Macaxeira 1kg",
   "preco": 2.90,
   "imagem": "macaxeira.jpeg",
-  "descricao": {}
+  "descricao": {
+    "marca": "",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0kg"
+   },
+   "categoria": "Hortifruti"
+ }, 
+ {
+  "id": 123,
+  "nome": "Arroz CAMIL Tipo 1 5kg",
+  "preco": 22.79,
+  "imagem": "528219.webp",
+  "descricao": {
+    "marca": "Camil",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5kg"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 124,
+  "nome": "Arroz Prato Fine Tipo 1 5kg",
+  "preco": 26.69,
+  "imagem": "573999.webp",
+  "descricao": {
+    "marca": "Prato Fino",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5kg"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 125 ,
+  "nome": "Arroz Parboilizado Tipo 1 Qualitá 5kg",
+  "preco": 18.89,
+  "imagem": "23935789.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 126 ,
+  "nome": "Arroz CAMIL Tipo 1 1kg",
+  "preco": 5.39,
+  "imagem": "528218.webp",
+  "descricao": {
+    "marca": "Camil",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 127 ,
+  "nome": "Arroz Integral Tipo 1 TIO JOÃO 1kg",
+  "preco": 7.39,
+  "imagem": "5300765.webp",
+  "descricao": {
+    "marca": "Tio João",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Arroz"
+ }, 
+ {
+  "id": 128 ,
+  "nome": "Arroz Arbóreo Tipo 1 Qualitá 1kg",
+  "preco": 17.49,
+  "imagem": "621919.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Arroz"
+ }, 
+ {
+  "id": 129 ,
+  "nome": "Arroz Tipo 1 TIO JOÃO 1kg",
+  "preco": 5.99,
+  "imagem": "596246.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 130 ,
+  "nome": "Arroz Branco Tipo 1 Solito 5kg",
+  "preco": 19.99,
+  "imagem": "658902.webp",
+  "descricao": {
+    "marca": "Solito",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 131 ,
+  "nome": "Arroz Agulhinha Tipo 1 Prato Fino 1kg",
+  "preco": 6.29,
+  "imagem": "574001.webp",
+  "descricao": {
+    "marca": "Prato Fino",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 132 ,
+  "nome": "Arroz Agulhinha Tipo 1 Qualitá 1kg",
+  "preco": 4.69,
+  "imagem": "621481.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 133 ,
+  "nome": "Arroz Branco Tipo 1 Pantera Alimentos Premium Pacote 5kg",
+  "preco": 23.79,
+  "imagem": "596198.webp",
+  "descricao": {
+    "marca": "Pantera",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 134 ,
+  "nome": "Arroz Agulhinha Tipo 1 TIO JOÃO 5kg",
+  "preco": 26.99,
+  "imagem": "590351.webp",
+  "descricao": {
+    "marca": "Tio João",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 135 ,
+  "nome": "Arroz Parboilizado Tipo 1 CAMIL 5kg",
+  "preco": 23.99,
+  "imagem": "528446.webp",
+  "descricao": {
+    "marca": "CAMIL",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 136 ,
+  "nome": "Arroz CARNAROLI 1kg",
+  "preco": 22.49,
+  "imagem": "639213.jpg",
+  "descricao": {
+    "marca": "CARNAROLI",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1kg"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 137 ,
+  "nome": "Arroz Parboilizado Tipo 1 TIO JOÃO Pacote 5kg",
+  "preco": 27.99,
+  "imagem": "596114.webp",
+  "descricao": {
+    "marca": "Tio João",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "5KG"
+   },
+   "categoria": "Arroz"
+ },
+ {
+  "id": 138 ,
+  "nome": "Feijão Carioca Tipo 1 CAMIL Pacote 1kg",
+  "preco": 9.49,
+  "imagem": "10723297.jpeg",
+  "descricao": {
+    "marca": "CAMIL",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 139 ,
+  "nome": "Feijão Fradinho Tipo 1 Qualitá Pacote 500g",
+  "preco": 7.79,
+  "imagem": "621340.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 140 ,
+  "nome": "Feijão Preto Tipo 1 CAMIL Pacote 1kg",
+  "preco": 8.49,
+  "imagem": "528445.webp",
+  "descricao": {
+    "marca": "Camil",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 141 ,
+  "nome": "Feijão Carioca Tipo 1 Cores Qualitá Pacote 1kg",
+  "preco": 7.99,
+  "imagem": "23935787.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 142 ,
+  "nome": "Feijão Carioca Tipo 1 Pantera Premium Pacote 1kg",
+  "preco": 10.99,
+  "imagem": "596153.webp",
+  "descricao": {
+    "marca": "Pantera",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 143 ,
+  "nome": "Feijão Carioca Tipo 1 KICALDO Pacote 1Kg",
+  "preco": 10.29,
+  "imagem": "590348.webp",
+  "descricao": {
+    "marca": "KICALDO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 144 ,
+  "nome": "Feijão Preto Tipo 1 Qualitá Pacote 1kg",
+  "preco": 6.99,
+  "imagem": "23935786.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 145 ,
+  "nome": "Feijão Preto Orgânico Cozido no Vapor VAPZA Caixa 250g",
+  "preco": 9.69,
+  "imagem": "13594874.webp",
+  "descricao": {
+    "marca": "VAPZA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "250g"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 146 ,
+  "nome": "Feijão Preto Tipo 1 Kicaldo Pacote 1Kg",
+  "preco": 8.79,
+  "imagem": "596239.webp",
+  "descricao": {
+    "marca": "KICALDO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 147 ,
+  "nome": "Feijão Carioca Tipo 1 NENE Pacote 1kg",
+  "preco": 9.99,
+  "imagem": "596232.webp",
+  "descricao": {
+    "marca": "NENE",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 148 ,
+  "nome": "Feijão Branco Tipo 1 Urbano Seleção Especial Pacote 500g",
+  "preco": 8.79,
+  "imagem": "24032510.webp",
+  "descricao": {
+    "marca": "URBANO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 149 ,
+  "nome": "Feijão Carioca Tipo 1 Premium D'Maria 1kg",
+  "preco": 9.69,
+  "imagem": "24171874.webp",
+  "descricao": {
+    "marca": "D'MARIA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 150 ,
+  "nome": "Feijão Carioca Tipo 1 Sabor Máximo Pacote 1kg",
+  "preco": 8.99,
+  "imagem": "596154.webp",
+  "descricao": {
+    "marca": "MÁXIMO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 151 ,
+  "nome": "Feijão Preto Tipo 1 SUPER MÁXIMO Pacote 1kg",
+  "preco": 8.29,
+  "imagem": "471416.jpg",
+  "descricao": {
+    "marca": "MÁXIMO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 152 ,
+  "nome": "Feijão Branco CAMIL Pacote 500g",
+  "preco": 9.19,
+  "imagem": "22428400.jpg",
+  "descricao": {
+    "marca": "CAMIL",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Feijão"
+ },
+ {
+  "id": 153,
+  "nome": "Espaguete Com Ovos QUALITÁ Pacote 500g",
+  "preco": 3.49,
+  "imagem": "621488.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 154,
+  "nome": "Macarrão Italiano Espaghetti Nº 5 BARILLA 500g",
+  "preco": 13.49,
+  "imagem": "22045184.webp",
+  "descricao": {
+    "marca": "Barilla",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 155,
+  "nome": "Macarrão Instantâneo de Galinha Caipira Nissin Miojo Lámen Pacote 85g",
+  "preco": 2.39,
+  "imagem": "590313.webp",
+  "descricao": {
+    "marca": "Nissin",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "85g"
+   },
+   "categoria": "Massas"
  }
+ ,{
+  "id": 156,
+  "nome": "Barilla Espaguete 8 Massa com Ovos 500g",
+  "preco": 4.25,
+  "imagem": "19747895.webp",
+  "descricao": {
+    "marca": "Barilla",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 157,
+  "nome": "Macarrão ADRIA com Ovos Espaguete - 8 500g",
+  "preco": 3.59,
+  "imagem": "12707730.jpg",
+  "descricao": {
+    "marca": "ADRIA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 158,
+  "nome": "Macarrão Instantâneo de Carne Nissin Miojo Lámen Pacote 85g",
+  "preco": 2.39,
+  "imagem": "562561.webp",
+  "descricao": {
+    "marca": "Nissin",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "85g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 159,
+  "nome": "Massa Instantânea Galinha Caipira Nissin Cup Noodles Copo 69g",
+  "preco": 4.95,
+  "imagem": "18792961.jpg",
+  "descricao": {
+    "marca": "Nissin",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "69g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 160,
+  "nome": "Barilla Farfalle Grano Duro 500g",
+  "preco": 14.79,
+  "imagem": "22045257.webp",
+  "descricao": {
+    "marca": "Barilla",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 161,
+  "nome": "Macarrão ADRIA com Ovos Parafuso 500g",
+  "preco": 3.59,
+  "imagem": "12707755.webp",
+  "descricao": {
+    "marca": "ADRIA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 162,
+  "nome": "Macarrão Instantâneo de Tomate Suave Nissin Miojo Turma da Mônica Pacote 85g",
+  "preco": 2.39,
+  "imagem": "588042.webp",
+  "descricao": {
+    "marca": "Nissin",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "85g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 163,
+  "nome": "Barilla Fusilli Grano Duro 500g",
+  "preco": 13.99,
+  "imagem": "22045211.webp",
+  "descricao": {
+    "marca": "Barilla",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 164,
+  "nome": "Macarrão de Sêmola Grano Duro Fusilli 40 Divella Pacote 500g",
+  "preco": 8.99,
+  "imagem": "23752962.webp",
+  "descricao": {
+    "marca": "Divella",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 165,
+  "nome": "Macarrão Penne BARILLA Sem Glúten Caixa 400g",
+  "preco": 18.99,
+  "imagem": "598709.webp",
+  "descricao": {
+    "marca": "Barilla",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "400g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 166,
+  "nome": "Macarrão com Ovos Ave Maria PETYBON Pacote 500g",
+  "preco": 3.99,
+  "imagem": "570726.webp",
+  "descricao": {
+    "marca": "Petybon",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 167,
+  "nome": "Espaguete Vegano Superiore Grano Duro Importado Renata 500g",
+  "preco": 21.29,
+  "imagem": "22370743.webp",
+  "descricao": {
+    "marca": "Renata",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Massas"
+ },
+ {
+  "id": 168,
+  "nome": "Farinha de Trigo Tipo 1 Tradicional Qualitá Pacote 1kg",
+  "preco": 5.19,
+  "imagem": "23935790.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 169,
+  "nome": "Farinha De Mandioca Torrada YOKI Pacote 500g",
+  "preco": 5.99,
+  "imagem": "552920.webp",
+  "descricao": {
+    "marca": "YOKI",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 170,
+  "nome": "Farinha De Trigo Tradicional RENATA Tipo 1 Pacote 1Kg",
+  "preco": 7.89,
+  "imagem": "13127217.webp",
+  "descricao": {
+    "marca": "RENATA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 171,
+  "nome": "Farinha de Trigo Tipo 1 Tradicional Qualitá Pacote 1kg",
+  "preco": 5.49,
+  "imagem": "23935791.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 172,
+  "nome": "Farinha de Trigo Especial com Ferro ROSA BRANCA Pacote 1kg",
+  "preco": 5.79,
+  "imagem": "547266.webp",
+  "descricao": {
+    "marca": "ROSA BRANCA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 173,
+  "nome": "Mistura Flocada para Empanados Panko Alfa Pacote 200g",
+  "preco": 15.29,
+  "imagem": "638191.webp",
+  "descricao": {
+    "marca": "Panko",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "200g"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 174,
+  "nome": "Polvilho Azedo QUALITÁ Pacote 500g",
+  "preco": 10.29,
+  "imagem": "621399.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 175,
+  "nome": "Farinha de Tapioca Wrapioca 630g",
+  "preco": 15.49,
+  "imagem": "650324.webp",
+  "descricao": {
+    "marca": "Wrapioca",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "630g"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 176,
+  "nome": "Farinha Láctea NESTLÉ Aveia 200g",
+  "preco": 8.59,
+  "imagem": "19852511.jpg",
+  "descricao": {
+    "marca": "NESTLÉ",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "200g"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 177,
+  "nome": "Farinha de Trigo Integral DONA BENTA à Vácuo 1kg",
+  "preco": 10.49,
+  "imagem": "20903309.jpg",
+  "descricao": {
+    "marca": "DONA BENTA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 178,
+  "nome": "Farinha de Trigo para Pães Dona Benta Pacote 1kg",
+  "preco": 7.99,
+  "imagem": "636517.webp",
+  "descricao": {
+    "marca": "DONA BENTA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Farináceos"
+ },
+ {
+  "id": 179,
+  "nome": "Açúcar Refinado QUALITÁ Pacote 1Kg",
+  "preco": 4.29,
+  "imagem": "558980.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 180,
+  "nome": "Açúcar Refinado DA BARRA Pacote 1kg",
+  "preco": 4.39,
+  "imagem": "570666.webp",
+  "descricao": {
+    "marca": "BARRA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 181,
+  "nome": "Açúcar Claro Orgânico NATIVE Pacote 1kg",
+  "preco": 7.19,
+  "imagem": "18795051.webp",
+  "descricao": {
+    "marca": "NATIVE",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 182,
+  "nome": "Açúcar Refinado Granulado Premium UNIÃO Pacote 1kg",
+  "preco": 7.99,
+  "imagem": "569661.webp",
+  "descricao": {
+    "marca": "UNIÃO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 183,
+  "nome": "Açúcar Refinado UNIÃO Pacote 1kg",
+  "preco": 4.39,
+  "imagem": "454628.webp",
+  "descricao": {
+    "marca": "UNIÃO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 184,
+  "nome": "Açúcar Refinado CARAVELAS Pacote 1kg",
+  "preco": 4.49,
+  "imagem": "590297.webp",
+  "descricao": {
+    "marca": "CARAVELAS",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 185,
+  "nome": "Açúcar Cristal QUALITÁ Pacote 1kg",
+  "preco": 4.39,
+  "imagem": "621501.webp",
+  "descricao": {
+    "marca": "Qualitá",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 186,
+  "nome": "Açúcar Refinado Granulado Doçúcar UNIÃO Pacote 1kg",
+  "preco": 6.59,
+  "imagem": "570697.webp",
+  "descricao": {
+    "marca": "UNIÃO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 187,
+  "nome": "Açúcar Cristalçúcar UNIÃO Pacote 1kg",
+  "preco": 4.69,
+  "imagem": "494178.webp",
+  "descricao": {
+    "marca": "UNIÃO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "1KG"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 188,
+  "nome": "Açúcar Refinado Granulado em Cubos UNIÃO Pote 250g",
+  "preco": 11.29,
+  "imagem": "569441.webp",
+  "descricao": {
+    "marca": "UNIÃO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "250g"
+   },
+   "categoria": "Açucar"
+ },
+ {
+  "id": 189,
+  "nome": "Açúcar de Confeiteiro Glaçúcar UNIÃO Pacote 500g",
+  "preco": 12.99,
+  "imagem": "467408.jpg",
+  "descricao": {
+    "marca": "UNIÃO",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Açucar"
+ },
+ {"id": 190,
+  "nome": "Zero-Cal Sucralose Adoçante Líquido 100ml",
+  "preco": 12.99,
+  "imagem": "17061832.jpeg",
+  "descricao": {
+    "marca": "Zero-Cal",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 191,
+  "nome": "Zero-Cal Sacarina Adoçante Líquido 100ml",
+  "preco": 7.19,
+  "imagem": "17134511.jpeg",
+  "descricao": {
+    "marca": "Zero-Cal",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 192,
+  "nome": "Adoçante Líquido LINEA 75ml",
+  "preco": 16.49,
+  "imagem": "2742880.webp",
+  "descricao": {
+    "marca": "LINEA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 193,
+  "nome": "Zero-Cal Sacarina Adoçante Líquido 200ml",
+  "preco": 13.80,
+  "imagem": "18792477.webp",
+  "descricao": {
+    "marca": "Zero-Cal",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 194,
+  "nome": "Adoçante em Pó LINEA 40g Caixa com 100 Envelopes de 800mg",
+  "preco": 23.35,
+  "imagem": "9074617.webp",
+  "descricao": {
+    "marca": "LINEA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "800mg"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 195,
+  "nome": "Zero-Cal Sucralose Adoçante Líquido Pack 50% 2ª unidade",
+  "preco": 19.48,
+  "imagem": "12919603.webp",
+  "descricao": {
+    "marca": "Zero-Cal",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 196,
+  "nome": "Adoçante Líquido Stévia LINEA 60ml",
+  "preco": 17.79,
+  "imagem": "8383950.webp",
+  "descricao": {
+    "marca": "LINEA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 197,
+  "nome": "Zero-Cal Stévia Adoçante Líquido 80ml",
+  "preco": 13.99,
+  "imagem": "12855488.webp",
+  "descricao": {
+    "marca": "Zero-Cal",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 198,
+  "nome": "Adoçante Líquido Adocyl Sacarina 100ml",
+  "preco": 4.89,
+  "imagem": "669617.webp",
+  "descricao": {
+    "marca": "ADOCYL",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 199,
+  "nome": "Zero-Cal Sucralose Adoçante em Pó 50 sachês",
+  "preco": 9.69,
+  "imagem": "12937010.webp",
+  "descricao": {
+    "marca": "Zero-Cal",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 200,
+  "nome": "Zero-Cal Eritritol Adoçante Líquido 65ml",
+  "preco": 20.29,
+  "imagem": "18847140.webp",
+  "descricao": {
+    "marca": "Zero-Cal",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Adoçante"
+ },
+ {"id": 201,
+  "nome": "Café Pilão Torrado E Moído Tradicional Almofada 500g",
+  "preco": 20.99,
+  "imagem": "669346.webp",
+  "descricao": {
+    "marca": "Pilão",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  },
+  {"id": 202,
+  "nome": "Café à Vácuo Torrado e Moído Tradicional MELITTA Caixa 500g",
+  "preco": 19.99,
+  "imagem": "12329841.webp",
+  "descricao": {
+    "marca": "MELITTA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  },
+  {"id": 203,
+  "nome": "Café Torrado e Moído Extraforte MELITTA Caixa 500g",
+  "preco": 19.99,
+  "imagem": "12306466.webp",
+  "descricao": {
+    "marca": "MELITTA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  },
+  {"id": 204,
+  "nome": "Café Pilão Torrado E Moído Extra Forte Vácuo 500g",
+  "preco": 18.99,
+  "imagem": "669353.webp",
+  "descricao": {
+    "marca": "Pilão",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  },
+  {"id": 205,
+  "nome": "Café Torrado e Moído Tradicional MELITTA Pacote 500g",
+  "preco": 21.49,
+  "imagem": "18794041.webp",
+  "descricao": {
+    "marca": "MELITTA",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  },
+  {"id": 206,
+  "nome": "Café Pilão Torrado E Moído Extra Forte Almofada 500g",
+  "preco": 18.99,
+  "imagem": "669347.webp",
+  "descricao": {
+    "marca": "Pilão",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  },
+  {"id": 207,
+  "nome": "Café L'OR Cápsula Ristretto 10 unidades",
+  "preco": 22.99,
+  "imagem": "24284586.webp",
+  "descricao": {
+    "marca": "L'OR",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Café"
+  },
+  {"id": 208,
+  "nome": "Café Torrado e Moído Tradicional 3 CORAÇÕES Pacote 500g",
+  "preco": 17.49,
+  "imagem": "645980.webp",
+  "descricao": {
+    "marca": "3 CORAÇÕES",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  },
+  {"id": 209,
+  "nome": "Café em Cápsula NESCAFÉ DOLCE GUSTO Espresso 16 Cápsulas",
+  "preco": 28.39,
+  "imagem": "12376340.webp",
+  "descricao": {
+    "marca": "NESCAFÉ",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "0"
+   },
+   "categoria": "Café"
+  },
+  {"id": 210,
+  "nome": "Café à Vácuo Torrado e Moído Tradicional 3 CORAÇÕES Caixa 500g",
+  "preco": 17.99,
+  "imagem": "645981.webp",
+  "descricao": {
+    "marca": "3 CORAÇÕES",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  },
+  {"id": 211,
+  "nome": "Café Pilão Torrado E Moído Tradicional Vácuo 500g",
+  "preco": 18.99,
+  "imagem": "18845088.webp",
+  "descricao": {
+    "marca": "Pilão",
+    "altura": "0",
+    "largura": "0cm",
+    "peso": "500g"
+   },
+   "categoria": "Café"
+  }
   ]

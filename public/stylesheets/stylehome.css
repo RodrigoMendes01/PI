@@ -108,6 +108,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 100%;
+  background-color: #f4f4f4;
 }
 main .aviso {
   display: flex;
