@@ -79,27 +79,27 @@ footer {
 }
 footer .logoecontato {
   display: flex;
-  background-color: gray;
-  width: 60%;
+  align-items: center;
+  width: 50%;
   height: 80%;
 }
 footer .logo {
   display: flex;
-  height: 80%;
-  background-color: aqua;
-  width: 15%;
+  justify-content: flex-end;
+  height: max-content;
+  width: max-content;
 }
 footer .logo img {
-  height: 70%;
+  height: 15vh
 }
 footer .endereco {
   width: 70%;
   height: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  width: max-content;
+  height: 100%;
   flex-direction: column;
-  background-color: aquamarine;
-  padding-top: 12px;
   color: #E4E3DF;
   font-size: .9em;
 }
@@ -114,12 +114,18 @@ footer .contatos .whatsapp img, .email img {
   display: flex;
   width: 30px;
 }
-@media (min-width: 320px) and (max-width: 667px) {
+@media (min-width: 320px) and (max-width: 1023px) {
   main .jumbotron {
     flex-direction: column;
     align-items: center;
   }
-  footer .logoecontato {
-    justify-content: space-between;
+  footer .endereco {
+    flex-direction: column;
+    font-size: .7em;
+  }
+}
+@media (min-width: 1600px) and (max-width: 2560px) {
+  main {
+    height: 56vh;
   }
 }

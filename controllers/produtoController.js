@@ -5,8 +5,16 @@ const produtoController = {
     const produtos = Produto.findAll();
     res.render('paginaProdutos', {produtos})
   },
-  show: (req, res) => {
-    res.render('detalheProdutos')
+ 
+  detail: (req, res) => {
+    const produto = Produto.findOne(req.params.id)
+    let produtosRelacionados = Produto.filter(produto.categoria)
+    
+    if(produtosRelacionados.length > 5){
+      produtosRelacionados = produtosRelacionados.slice(0, 5)
+    } 
+
+    res.render('detalheProduto', {produto, produtosRelacionados})
   }
 }
 
