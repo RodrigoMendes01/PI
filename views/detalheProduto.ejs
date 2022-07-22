@@ -24,7 +24,7 @@
       </div>
       <div class="descricao">
         <h1><%= produto.nome %> </h1>
-        <h4> <%= produto.preco %>   </h4>
+        <h4>R$ <%= produto.preco %>   </h4>
         <label for="cep">Calcule o frete e prazo de entrega</label>
         <input type="number and sign" placeholder="CEP" required placeholder="CEP" name="cep" id="cep">
         <button type="submit" id="consultar">Consultar</button>
@@ -42,8 +42,7 @@
     <hr>
     <p>Peso líquido (kg): <%= produto.descricao.peso %> </p>
     <hr>
-    <p>Profundidade do produto: <%= produto.descricao.profundidade %>  (cm)</p>
-    <hr>
+    
   </div>
   <h4 id="veja-tambem">Veja também</h4>
   <hr>
