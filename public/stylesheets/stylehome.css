@@ -10,95 +10,161 @@ body {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: red;
+  padding: 0px 20px 0px 20px;
+  gap: 3%;
   height: 15vh;
 }
-.logoeham {
+/* MENU START */
+
+a {
+  color: rgb(150, 143, 143);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.7;
+}
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 15%;
-  height: 80%;
+  font-family: 'Barlow';
+  height: 10vh;
 }
-#ham, .logo {
+.nav-list {
+  list-style: none;
   display: flex;
 }
-.logo {
-  width: 45%;
-  height: 100%;
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
 }
-#ham {
-  justify-content: center;
-  width: 37%;
-  height: 35%;
+.menu {
+  cursor: pointer;
 }
-.container {
+.menu div {
+  border-radius: 2px;
+  width: 22px;
+  height: 4px;
+  background: #fff;
+  margin: 4px;
+  transition: 0.5s;
+}
+.nav-list {
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  width: 25vw;
+  height: 85vh;
+  background: white;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px ;
+  gap: 5px;
+  overflow-y:scroll;
+  box-shadow: 0 0 1em red;
+  transform: translateX(-103%);
+  transition: transform 0.4s ease-in;
+  z-index: 1;
+}
+.nav-list li {
+  margin-left: 0;
+  opacity: 0;
+}
+.menu {
+  display: block;
+}
+.nav-list.active {
+  transform: translateX(0);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.menu.active .line1 {
+  transform: rotate(-45deg) translate(-7px, 7px);
+}
+.menu.active .line2 {
+  opacity: 0;
+}
+.menu.active .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+/* MENU END */
+
+/* HEADER CONTINUATION */
+.logo-container {
   display: flex;
   align-items: center;
-  background-color: brown;
-  width: 55%;
-  height: 35%;
-  gap: 4%;
-  border-radius: 7px;
-}
-#pesquisa {
-  border-radius: 6px;
-  border: 0;
-  width: 85%;
-  height: 100%;
-  padding-left: 8px;
-}
-.lupa {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: max-content;
   height: 90%;
-}
-.lupa img {
- height: 90%;
- width: 95%
-}
-.usuario {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 80%;
-  width: 22%;
-}
-.login {
-  display: flex;
-  align-items: center;
-  max-width: max-content;
-  max-height: max-content;
+  width: max-content;
   
 }
-.login img {
-  width: 4vw;
+.logo-container img {
+  height: 90%;
 }
-.seta {
+.pesquisa-container {
   display: flex;
   align-items: center;
-  max-width: max-content;
-  max-height: max-content;
+  width: 60%;
+  height: 40%;
+  border-radius: 6px;
+  background-color: rgb(182, 12, 12);
 }
-.seta img {
-  width: 2vw;
+#input-pesquisa {
+  border-radius: 6px 0px 0px 6px;
+  width: 85%;
+  height: 100%;
+  font-size: 1em;
+  padding-left: 8px;
+  border: 0;
+  outline: 0;
 }
-.usuario .carrinho {
+#lupa {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  max-width: max-content;
-  max-height: max-content;
+  justify-content: center;
+  height: 90%;
+  width: 15% ;
+  border-radius: 0px 6px 6px 0px;
 }
-.carrinho img {
-  width: 6vw;
+#lupa img {
+  height: 80%;
+  padding-left: 5px;
 }
-.usuario-container {
+#user-car {
   display: flex;
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center ;
+  width: 20%;
+  height: 100%;
+}
+#user {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  width: 30%;
+  cursor: pointer;
+}
+#user img {
+  height: 60%;
+}
+#car {
+ display: flex;
+ align-items: center;
+ height: 90%;
+ width: 30%;
+}
+#car img {
+  height: 45%;
 }
 /* HEADER END */
 
@@ -133,11 +199,10 @@ main .aviso {
   max-height: 90%;
 }
 .prev, .next {
+  margin-top: -15rem;
   cursor: pointer;
-  position: absolute;
-  top: 50%;
+  position: absolute;  
   width: auto;
-  margin-top: -8rem;
   padding: 20px;
   color: white;
   font-weight: bold;
@@ -163,7 +228,7 @@ main .aviso {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+.actived, .dot:hover {
   background-color: #717171;
 }
 .fade {
@@ -257,22 +322,24 @@ footer p {
   margin-left: 11%;
   text-align: left;
 }
-.media-social {
+footer .media-social {
   position: relative;
   left: 29px;
   top: 20px;
   cursor: pointer;
 }
-footer .lista {
+footer .lista .footer-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
   height: 30vh;
 }
 footer .lista li, footer .lista a {
   list-style: none;
   text-decoration: none;
   color: white;
+  text-transform: lowercase;
 }
 footer .lista h4 {
   color: white;

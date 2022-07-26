@@ -1,34 +1,67 @@
 <header>
-    
-  <div class="logoeham">
-    <div id="ham">
-      <img src="/images/img-header/hamburger-icon.png" alt="">
+  <nav>
+    <div class="menu">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
     </div>
-    <div class="logo">
-      <img src="/images/img-header/logo1.jpg" alt="">
-    </div>
-  </div>
+    <ul class="nav-list">
+      <li><h2>Bebidas</h2></li>
+      <li><a href="/produtos?category=Bebidas&filter=Agua">Água</a></li>
+      <li><a href="/produtos?category=Bebidas">Refrigerantes</a></li>
+      <li><a href="/produtos?category=Bebidas">Sucos</a></li>
+      <li><a href="/produtos?category=Bebidas">Café</a></li>
+      <li><a href="/produtos?category=Bebidas">Bebidas Alcoólicas</a></li>
 
-  <div class="container">
-    <input id="pesquisa" type="text" placeholder="Buscar...">
-    <div class="lupa">
+      <li><h2>Açucar e adoçante</h2></li>
+      <li><a href="/produtos?">Açucar</a></li>
+      <li><a href="/produtos?">Adoçante</a></li>
+
+      <li><h2>Graõs e Cereais</h2></li>
+      <li><a href="/produtos?">Arroz</a></li>
+      <li><a href="/produtos?">Feijão</a></li>
+
+      <li><h2>Farináceos</h2></li>
+      <li><a href="/produtos?">Farinhas</a></li>
+
+      <li><h2>Açougue e Peixaria</h2></li>
+      <li><a href="/produtos?">Açougue</a></li>
+      <li><a href="/produtos?">Peixaria</a></li>
+
+      <li><h2>Massas</h2></li>
+      <li><a href="/produtos?">Massas instantâneas</a></li>
+      <li><a href="/produtos?">massas secas</a></li>
+
+      <li><h2>Higiene Pessoal</h2></li>
+      <li><a href="/produtos?">Todos produtos</a></li>
+
+      <li><h2>Limpeza</h2></li>
+      <li><a href="/produtos?">Todos produtos</a></li>
+
+      <li><h2>Frios e lacticínios</h2></li>
+      <li><a href="/produtos?">Todos produtos</a></li>
+
+      <li><h2>Hortifruti</h2></li>
+      <li><a href="/produtos?">Todos produtos</a></li>
+      
+    </ul>
+  </nav>
+
+  <a class="logo-container" href="/">
+    <img src="/images/img-header/logo1.jpg" alt="">
+  </a>
+
+  <div class="pesquisa-container">
+    <input id="input-pesquisa" name="pesquisa" type="text" placeholder="Buscar...">
+    <div id="lupa">
       <img src="/images/img-header/lupa40.png" alt="">
     </div>
   </div>
 
-  <div class="usuario">
-    <div class="usuario-container">
-      <div class="login">
-        <img src="/images/img-header/usserlogin.png" alt="">
-      </div>
-      <div class="seta">
-        <img src="/images/img-header/seta.png" alt="">
-      </div>
-    </div>
-
-    <div class="carrinho">
-      <img src="/images/img-header/carrinho.png" alt="">
-    </div>
-
+  <div id="user-car">
+    
+    <a id="user" href="/usuarios/login"><img src="/images/img-header/usserlogin.png" alt=""></a>
+    <a id="car" href=""><img src="/images/img-header/carrinho.png" alt=""></a>
+    
   </div>
 </header>

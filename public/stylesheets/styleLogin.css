@@ -1,42 +1,9 @@
-body {
-  font-family: Barlow, sans-serif;
-  background-color: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.nomeProduto button{
-   color: white;
-  font-size: 20px;
-  font-weight: 900px;
-  background-color: #dd0000;
-  padding: 18px;
-  width: 228px;
-  border-radius: 10px;
-  cursor: pointer;
-  border-color: #dd0000;
-}
-
-  #consultar {
-    color: #dd0000;
-    font-size: 20px;
-    font-weight: 900px;
-    background-color:white;
-    padding: 5px;
-    width: 228px;
-    border-radius: 10px;
-    cursor: pointer;
-    border-color: #dd0000;
-    border-style: solid;
-  }
-
-  .nomeProduto input{
-    width: 55%;
-    font-weight: 100px;
-    color: black;
-    font-size: 18px;
-    text-align: left;
-  }
-
-/* HEADER STARTS */
-
+/* HEADER START */
 header {
   display: flex;
   align-items: center;
@@ -196,130 +163,90 @@ nav {
 #car img {
   height: 45%;
 }
-/* HEADER ENDS */
-
-#detalhesDoProduto{
-  margin-top: 50px;
-  margin-bottom: 0%;
-  font-weight: 500px;
-  color: black;
-  font-size: 20px;
-  text-align: center;
-}
-.caracteristicas-do-produto {
-color: black;
-font-weight: 400px;
-font-size: 15px;
-text-align: left;
-margin-top: 0px;
-}
-.caracteristicas-do-produto p {
-  margin-left: 10px;
-}
-#veja-tambem{
-margin-top: 20px;
-text-align: center;
-font-weight: 500px;
-font-size: 22px;
-}
-.nomeProduto{
-  display:flex;
-  justify-content: center;
-  margin-top: 50px;
-  align-items: center;
-}
-.nomeProduto img {
-  width: 100%;
-}
-.nomeProduto div{
+/* HEADER END */
+main {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 30%;
-  gap: 10px;
+  justify-content: center;
+  height: 85vh;
+  background-color: #EBEBEB; ;
 }
-p {
-  font-family: Barlow;
-  font-size: 15px;
-}
-.produto {
-  width: 20%;
-  border: 2px double #dd0000;
-  border-radius: 10px;
-  margin: 11px;
-  text-align: center;
-  padding: 15px;
-  cursor: pointer;
+#form {
   background-color: white;
-}
-.produtos1 {
-  display: flex;
-}
-.nome {
-  font-size: 14px;
-  background-color: gold;
-  padding: 4px 6px;
   border-radius: 10px;
-  color: black; 
+  width: 28%;
+  height: 70%;
 }
-.botao1 {
+form {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  color: white;
-  font-size: 13px;
-  font-weight: 200px;
-  background-color: #dd0000;
-  padding: 5px;
-  width: 95%;
-  border-radius: 10px;
-  border-color: #dd0000;
-  vertical-align: bottom;
-  display:inline-block;
+  height: 100%;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
-
-/* FOOTER START */
-footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: red;
-  height: 30vh;
-  padding-right: 20%;
-}
-.logo-footer {
-  margin-left: 3%;
-  width: 25%;
-}
-footer p {
-  color: white;
-  font-size: 20px;
-  margin-left: 11%;
-  text-align: left;
-}
-footer .media-social {
-  position: relative;
-  left: 29px;
-  top: 20px;
-  cursor: pointer;
-}
-footer .lista .footer-nav {
+.area {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  height: 30vh;
+  width: 80%;
+  height: 20%;
 }
-footer .lista li, footer .lista a {
-  list-style: none;
+label {
+  color: #666666;
+  font-size: 1.2em;
+}
+input {
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 45%;
+  outline: 0;
+  padding-left: 5px;
+}
+.a {
   text-decoration: none;
-  color: white;
-  text-transform: lowercase;
+  color: rgb(202, 9, 9);
+  font-weight: 500;
+  text-transform: initial;
 }
-footer .lista h4 {
-  color: white;
+.lnr-eye {
+  position: relative;
+  top: -28px;
+  left: 90%;
+  cursor: pointer;
 }
-/* FOOTER END */
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 10%;
+  border-radius: 10px;
+}
+#btn {
+  height: 90%;
+  width: 80%;
+  border-radius: 5px;
+  border: 0;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: rgb(202, 9, 9);
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  #form {
+    width: 60%;
+  }
+  .lnr-eye {
+    top: -24px;
+    left: 86%
+  }
+}
+@media (min-width: 1024px) and (max-width: 1300px ) {
+  #form {
+    width: 40%;
+  }
+}
+
+
