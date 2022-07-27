@@ -1,10 +1,16 @@
+//importando os produtos no JSON
 const produtos = require("../data/produtos.json");
+
 const Produto = {
-  findAll: () => produtos, 
-
-  findOne: (id) => produtos.find(produto => id == produto.id),
-
-  filter: (categoria) => produtos.filter(produto => categoria == produto.categoria)
+  findAll: () => {
+    return produtos
+  },
+  findOne: (id) => {
+    return produtos.find(produto => id == produto.id)
+  },
+  filter: (categoria) => {
+    return produtos.filter(produto => categoria == produto.categoria)
+  }
 };
 
 
