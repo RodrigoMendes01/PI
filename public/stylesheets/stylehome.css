@@ -25,7 +25,14 @@ a {
   transition: 0.3s;
 }
 a:hover {
-  opacity: 0.7;
+  color: rgb(182, 12, 12);
+  opacity: .8;
+}
+.h2-nav {
+  color: #717171;
+}
+.h2-nav:hover {
+  color: rgb(182, 12, 12);
 }
 nav {
   display: flex;
@@ -39,6 +46,7 @@ nav {
   display: flex;
 }
 .nav-list li {
+  margin: 5px 5px;
   letter-spacing: 3px;
   margin-left: 32px;
 }
@@ -62,7 +70,6 @@ nav {
   background: white;
   flex-direction: column;
   padding: 30px 30px 30px 30px ;
-  gap: 5px;
   overflow-y:scroll;
   box-shadow: 0 0 1em red;
   transform: translateX(-103%);

@@ -222,7 +222,7 @@
    "id": 18,
    "nome": "Protex Sabonete Mãos",
    "preco": 6.99,
-   "imagem": "protex-maos.jpeg",
+   "imagem": "protex-maos.webp",
    "descricao": {
     "marca": "Protex",
     "altura": "0",
@@ -261,7 +261,7 @@
    "id": 21,
    "nome": "Pasta de Dente Colgate",
    "preco": 8.90,
-   "imagem": "pasta-colgate.jpeg",
+   "imagem": "pasta-colgate.webp",
    "descricao": {
     "marca": "Colgate",
     "altura": "0",
@@ -300,7 +300,7 @@
    "id": 24,
    "nome": "Desodorante Rexona Men",
    "preco": 10.00,
-   "imagem": "desodorante-masc.webp",
+   "imagem": "desodorante-masc.jpeg",
    "descricao": {
     "marca": "Rexona",
     "altura": "0",
@@ -313,27 +313,27 @@
    "id": 25,
    "nome": "Água Mineral Crystal 500ml",
    "preco": 1.49,
-   "imagem": "agua-crystal.webp",
+   "imagem": "agua-crystal.jpeg",
    "descricao": {
     "marca": "Coca-Cola",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Água"
+   "categoria": "Bebidas"
   },
   {
    "id": 26,
    "nome": "Água com Gás Crystal 500ml",
    "preco": 1.69,
-   "imagem": "agua-gas-crystal.webp",
+   "imagem": "agua-gas-crystal.jpeg",
    "descricao": {
     "marca": "Coca-Cola",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Água"
+   "categoria": "Bebidas"
   },
   {
    "id": 27,
@@ -346,33 +346,33 @@
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Água"
+   "categoria": "Bebidas"
   },
   {
    "id": 28,
-   "nome": "Coca-Cola 350ml",
+   "nome": "Refrigerante Coca-Cola 350ml",
    "preco": 2.20,
-   "imagem": "coca-lata.png",
+   "imagem": "coca-lata.jpeg",
    "descricao": {
     "marca": "Coca-Cola",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Refrigerantes"
+   "categoria": "Bebidas"
   },
   {
    "id": 29,
-   "nome": "Guaraná 350ml",
+   "nome": "Refrigerante Guaraná 350ml",
    "preco": 1.99,
-   "imagem": "guaraná-350.jpeg",
+   "imagem": "guarana-350.jpeg",
    "descricao": {
     "marca": "Guaraná",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Refrigerantes"
+   "categoria": "Bebidas"
   },
   {
    "id": 30,
@@ -385,7 +385,7 @@
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Bebidas alcóolicas"
+   "categoria": "Bebidas"
   },
   {
    "id": 31,
@@ -398,33 +398,33 @@
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Bebidas alcóolicas"
+   "categoria": "Bebidas"
   },
   {
    "id": 32,
    "nome": "Cerveja Skol Pilsen 350ml",
    "preco": 3.10,
-   "imagem": "skol.wepb",
+   "imagem": "skol.webp",
    "descricao": {
     "marca": "Skol",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Bebidas alcóolicas"
+   "categoria": "Bebidas"
   },
   {
    "id": 33,
    "nome": "Suco de Uva DelValle 1L",
    "preco": 7.20,
-   "imagem": "uva-delvalle.jpeg",
+   "imagem": "uva-delvalle.webp",
    "descricao": {
     "marca": "Coca-Cola",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Suco"
+   "categoria": "Bebidas"
   },
   {
    "id": 34,
@@ -437,33 +437,33 @@
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Suco"
+   "categoria": "Bebidas"
   },
   {
    "id": 35,
    "nome": "Vinho Tinto Seco Chileno ",
    "preco": 31.00,
-   "imagem": "vinho-tinto-seco.webp",
+   "imagem": "vinho-tinto-seco.jpeg",
    "descricao": {
     "marca": "",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Bebidas alcóolicas"
+   "categoria": "Bebidas"
   },
   {
    "id": 36,
    "nome": "Vinho Verde Casal Garcia",
    "preco": 42.00,
-   "imagem": "casal-garcia.png",
+   "imagem": "casal-garcia.webp",
    "descricao": {
     "marca": "Garcia",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Bebidas alcóolicas"
+   "categoria": "Bebidas"
   },
   {
    "id": 37,
@@ -476,20 +476,20 @@
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Bebidas alcóolicas"
+   "categoria": "Bebidas"
   },
   {
    "id": 38,
    "nome": "Vinho Tinto Casa di Luigi",
    "preco": 43.00,
-   "imagem": "vinho-tinto-kosher.webp",
+   "imagem": "3022196.webp",
    "descricao": {
     "marca": "Casa di Luigi",
     "altura": "0",
     "largura": "0cm",
     "peso": "0kg"
    },
-   "categoria": "Bebidas alcóolicas"
+   "categoria": "Bebidas"
   },
   {
     "id": 39,
@@ -1195,7 +1195,7 @@
    },
   {
   "id": 93,
-  "nome": "Maçã Gala Bandeija 500g",
+  "nome": "Maçã Gala - Bandeija com 500g",
   "preco": 5.49,
   "imagem": "maca-gala.jpeg",
   "descricao": {
@@ -1208,7 +1208,7 @@
  },
  {
   "id": 94,
-  "nome": "Maracujá Azedo 350g",
+  "nome": "Maracujá Azedo - Bandeija com 350g",
   "preco": 2.55,
   "imagem": "maracuja.jpeg",
   "descricao": {
@@ -1221,7 +1221,7 @@
  },
  {
   "id": 95,
-  "nome": "Abacaxi Pérola Unidade",
+  "nome": "Abacaxi Pérola - A unidade 1,2kg",
   "preco": 8.15,
   "imagem": "abacaxi.jpeg",
   "descricao": {
@@ -1234,7 +1234,7 @@
  },
  {
   "id": 96,
-  "nome": "Banana Nanica 600g",
+  "nome": "Banana Nanica - Bandeija com 600g",
   "preco": 3.69,
   "imagem": "banana-n.jpeg",
   "descricao": {
@@ -1247,7 +1247,7 @@
  },
  {
   "id": 97,
-  "nome": "Laranja Pêra 1kg",
+  "nome": "Laranja Pêra - Bandeija com 1kg",
   "preco": 4.30,
   "imagem": "laranja-p.jpeg",
   "descricao": {
@@ -1260,7 +1260,7 @@
  },
  {
   "id": 98,
-  "nome": "Mamão Papaia 600g",
+  "nome": "Mamão Papaia - Bandeija com 600g",
   "preco": 8.20,
   "imagem": "mamao-p.jpeg",
   "descricao": {
@@ -1273,7 +1273,7 @@
  },
  {
   "id": 99,
-  "nome": "Banana Prata 600g",
+  "nome": "Banana Prata - Bandeija com 600g ",
   "preco": 4.49,
   "imagem": "banana-p.jpeg",
   "descricao": {
@@ -1594,7 +1594,7 @@
     "largura": "0cm",
     "peso": "5kg"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 124,
@@ -1607,7 +1607,7 @@
     "largura": "0cm",
     "peso": "5kg"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 125 ,
@@ -1620,7 +1620,7 @@
     "largura": "0cm",
     "peso": "5KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 126 ,
@@ -1633,7 +1633,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 127 ,
@@ -1646,7 +1646,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  }, 
  {
   "id": 128 ,
@@ -1659,7 +1659,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  }, 
  {
   "id": 129 ,
@@ -1672,7 +1672,7 @@
     "largura": "0cm",
     "peso": "5KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 130 ,
@@ -1685,7 +1685,7 @@
     "largura": "0cm",
     "peso": "5KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 131 ,
@@ -1698,7 +1698,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 132 ,
@@ -1711,7 +1711,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 133 ,
@@ -1724,7 +1724,7 @@
     "largura": "0cm",
     "peso": "5KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 134 ,
@@ -1737,7 +1737,7 @@
     "largura": "0cm",
     "peso": "5KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 135 ,
@@ -1750,7 +1750,7 @@
     "largura": "0cm",
     "peso": "5KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 136 ,
@@ -1763,7 +1763,7 @@
     "largura": "0cm",
     "peso": "1kg"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 137 ,
@@ -1776,7 +1776,7 @@
     "largura": "0cm",
     "peso": "5KG"
    },
-   "categoria": "Arroz"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 138 ,
@@ -1789,7 +1789,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 139 ,
@@ -1802,7 +1802,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 140 ,
@@ -1815,7 +1815,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 141 ,
@@ -1828,7 +1828,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 142 ,
@@ -1841,7 +1841,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 143 ,
@@ -1854,7 +1854,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 144 ,
@@ -1867,7 +1867,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 145 ,
@@ -1880,7 +1880,7 @@
     "largura": "0cm",
     "peso": "250g"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 146 ,
@@ -1893,7 +1893,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 147 ,
@@ -1906,7 +1906,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 148 ,
@@ -1919,7 +1919,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 149 ,
@@ -1932,7 +1932,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 150 ,
@@ -1945,7 +1945,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 151 ,
@@ -1958,7 +1958,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 152 ,
@@ -1971,7 +1971,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Feijão"
+   "categoria": "Grãos e Cereais"
  },
  {
   "id": 153,
@@ -2001,7 +2001,7 @@
  },
  {
   "id": 155,
-  "nome": "Macarrão Instantâneo de Galinha Caipira Nissin Miojo Lámen Pacote 85g",
+  "nome": "Macarrão Instantâneo de Galinha Caipira Nissin 85g",
   "preco": 2.39,
   "imagem": "590313.webp",
   "descricao": {
@@ -2322,7 +2322,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 180,
@@ -2335,7 +2335,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 181,
@@ -2348,7 +2348,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 182,
@@ -2361,7 +2361,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 183,
@@ -2374,7 +2374,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 184,
@@ -2387,7 +2387,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 185,
@@ -2400,7 +2400,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 186,
@@ -2413,7 +2413,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 187,
@@ -2426,7 +2426,7 @@
     "largura": "0cm",
     "peso": "1KG"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 188,
@@ -2439,7 +2439,7 @@
     "largura": "0cm",
     "peso": "250g"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {
   "id": 189,
@@ -2452,7 +2452,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Açucar"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 190,
   "nome": "Zero-Cal Sucralose Adoçante Líquido 100ml",
@@ -2464,7 +2464,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 191,
   "nome": "Zero-Cal Sacarina Adoçante Líquido 100ml",
@@ -2476,7 +2476,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 192,
   "nome": "Adoçante Líquido LINEA 75ml",
@@ -2488,7 +2488,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 193,
   "nome": "Zero-Cal Sacarina Adoçante Líquido 200ml",
@@ -2500,7 +2500,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 194,
   "nome": "Adoçante em Pó LINEA 40g Caixa com 100 Envelopes de 800mg",
@@ -2512,7 +2512,7 @@
     "largura": "0cm",
     "peso": "800mg"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 195,
   "nome": "Zero-Cal Sucralose Adoçante Líquido Pack 50% 2ª unidade",
@@ -2524,7 +2524,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 196,
   "nome": "Adoçante Líquido Stévia LINEA 60ml",
@@ -2536,7 +2536,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 197,
   "nome": "Zero-Cal Stévia Adoçante Líquido 80ml",
@@ -2548,7 +2548,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 198,
   "nome": "Adoçante Líquido Adocyl Sacarina 100ml",
@@ -2560,7 +2560,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 199,
   "nome": "Zero-Cal Sucralose Adoçante em Pó 50 sachês",
@@ -2572,7 +2572,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 200,
   "nome": "Zero-Cal Eritritol Adoçante Líquido 65ml",
@@ -2584,7 +2584,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Adoçante"
+   "categoria": "Açucar e Adoçante"
  },
  {"id": 201,
   "nome": "Café Pilão Torrado E Moído Tradicional Almofada 500g",
@@ -2596,7 +2596,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 202,
   "nome": "Café à Vácuo Torrado e Moído Tradicional MELITTA Caixa 500g",
@@ -2608,7 +2608,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 203,
   "nome": "Café Torrado e Moído Extraforte MELITTA Caixa 500g",
@@ -2620,7 +2620,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 204,
   "nome": "Café Pilão Torrado E Moído Extra Forte Vácuo 500g",
@@ -2632,7 +2632,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 205,
   "nome": "Café Torrado e Moído Tradicional MELITTA Pacote 500g",
@@ -2644,7 +2644,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 206,
   "nome": "Café Pilão Torrado E Moído Extra Forte Almofada 500g",
@@ -2656,7 +2656,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 207,
   "nome": "Café L'OR Cápsula Ristretto 10 unidades",
@@ -2668,7 +2668,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 208,
   "nome": "Café Torrado e Moído Tradicional 3 CORAÇÕES Pacote 500g",
@@ -2680,7 +2680,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 209,
   "nome": "Café em Cápsula NESCAFÉ DOLCE GUSTO Espresso 16 Cápsulas",
@@ -2692,7 +2692,7 @@
     "largura": "0cm",
     "peso": "0"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 210,
   "nome": "Café à Vácuo Torrado e Moído Tradicional 3 CORAÇÕES Caixa 500g",
@@ -2704,7 +2704,7 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   },
   {"id": 211,
   "nome": "Café Pilão Torrado E Moído Tradicional Vácuo 500g",
@@ -2716,6 +2716,6 @@
     "largura": "0cm",
     "peso": "500g"
    },
-   "categoria": "Café"
+   "categoria": "Bebidas"
   }
   ]

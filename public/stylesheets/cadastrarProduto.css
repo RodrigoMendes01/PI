@@ -25,7 +25,11 @@ a {
   transition: 0.3s;
 }
 a:hover {
-  opacity: 0.7;
+  color: rgb(182, 12, 12);
+  opacity: .8;
+}
+.h2-nav:hover {
+  color: rgb(182, 12, 12);
 }
 nav {
   display: flex;
@@ -242,6 +246,9 @@ input {
   background-color: red;
   color: white;
   cursor: pointer;
+}
+#btn:hover {
+  background-color: rgb(182, 12, 12);
 }
 .descricao {
   display: flex;
