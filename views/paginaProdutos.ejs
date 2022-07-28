@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,131 +10,45 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap" rel="stylesheet">
-<<<<<<< HEAD:views/paginaprodutos.ejs
-<<<<<<< HEAD:views/paginaprodutos.ejs
   <link rel="stylesheet" href="/stylesheets/styleProdutos.css">
-=======
   <link rel="stylesheet" href="css/styleprodutos.css">
->>>>>>> f2ab7bc947865e66bd07afb616be26281b45cf22:paginaprodutos.html
-=======
   <link rel="stylesheet" href="/stylesheets/styleProdutos.css">
->>>>>>> 7b09a5876f523494f72e232e901dec73c03b49cf:views/paginaProdutos.ejs
+
 </head>
 
 <body>
-  <main>
-    <!-- ABRE HEADER -->
-    <%- include('./partials/header')  %> 
-  <!-- FECHA HEADER -->
+  <%- include('./partials/header') %>
 
-<!-- ABRE SETAS -->
-<br>
-<a href="#home" style="text-decoration: none"><span class="inlineseta">&nbsp página inicial &nbsp</span></a>
-<div class="setinha"></div>
-<a href="#" style="text-decoration: none"><span class="inlineseta"> &nbsp &nbsp &nbsp produtos &nbsp</span></a> 
-<div class="setinha"></div>
-<a href="#delimpeza" style="text-decoration: none"><span class="inlineseta">&nbsp &nbsp &nbsp produtos de limpeza</span></a>
-<br></br>
-<!-- FECHA SETAS -->
+    <main>
 
-<!-- ABRE PRODUTOS --> 
-    <section class="container-pai">
-      <br></br> 
-      <br>
-      <section class="produto">
-        <img class="images"imgprodutos/ src="/images/imgprodutos/601_1.jpeg">
-        <p class="nome">Água Sanitária Dragão 1L</p>
-        <p class="preco">R$1,49</p>
-        <button class="botao1">Adicione ao carrinho</button>
+      <!-- ABRE PRODUTOS -->
+      <section id="in-sale">
+      
+        <% produtos.forEach(produto => { %>
+         
+          <div id="card">
+            <a id="detail-product" href="/detalhe/<%= produto.id %>">
+              <figure>
+                <img src="/images/imgprodutos/<%= produto.imagem %>" alt="">
+              </figure>
+              <article>
+                <p id="p"><%= produto.nome%></p>
+                <h2 id="price"><strong>R$</strong><%= produto.preco %></h2>
+                <button>Adicionar ao Carrinho</button>
+              </article>
+            </a>
+          </div>
+
+        <% }) %>
+  
+        
       </section>
-      <section class="produto">
-        <img class="images"imgprodutos/  src="/images/imgprodutos/detergente.webp" >
-        <p class="nome">Detergente Neutro Ipê 500ml</p>
-        <p class="preco">R$1,89</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img class="images"imgprodutos/  src="/images/imgprodutos/desengordurante-cozinha.webp">
-        <p class="nome">Desengordurante Veja 500ml</p>
-        <p class="preco">R$7,10</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/alcool-santacruz.webp">
-        <p class="nome">Álcool Santa Cruz 1L</p>
-        <p class="preco">R$6,20</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/esponja-multiuso-Scotch.webp">
-        <p class="nome">Esponja Multi-Uso Scotch</p>
-        <p class="preco">R$5,99</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/limpa-vidros-veja.webp">
-        <p class="nome">Limpa Vidros Veja 500ml</p>
-        <p class="preco">R$5,60</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/limpador-multiuso.jpeg">
-        <p class="nome">Limpador Multi-Uso Veja</p>
-        <p class="preco">R$4,90</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/omo-desinfetante.webp">
-        <p class="nome">Desinfetante Omo 1L</p>
-        <p class="preco">R$9,99</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/sabao-neutro-ipe.webp">
-        <p class="nome">Sabão Neutro Ipê 1kg</p>
-        <p class="preco">R$15,70</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img class="images"imgprodutos/  src="/images/imgprodutos/luvas-sanro-soft.jpeg">
-        <p class="nome">Luvas de Borracha Sanro Soft</p>
-        <p class="preco">R$6,90</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/pano-multiuso-scotch.avif">
-        <p class="nome">Pano Multi-Uso Scotch</p>
-        <p class="preco">R$16,60</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/sabao-liquido-ariel.webp">
-        <p class="nome">Sabão Líquido Ariel 1,2L</p>
-        <p class="preco">R$19,99</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/amaciante.webp">
-        <p class="nome">Amaciante Comfort 1L</p>
-        <p class="preco">R$14,75</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/sabao-po.webp">
-        <p class="nome">Sabão em Pó Omo 800g</p>
-        <p class="preco">R$14,50</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-      <section class="produto">
-        <img  class="images"imgprodutos/ src="/images/imgprodutos/sapolio.jpeg">
-        <p class="nome">Sapólio 250ml</p>
-        <p class="preco">R$7,15</p>
-        <button class="botao1">Adicione ao carrinho</button>
-      </section>
-    </section>
-    <!-- FECHA PRODUTOS -->
-  </main>
-  <%- include('./partials/footer')  %> 
+      <!-- FECHA PRODUTOS -->
+    </main>
+
+    <%- include('./partials/footer') %>
+
+    <script src="/javaScript/hamburger.js"></script>
 </body>
-</html>
 
+</html>

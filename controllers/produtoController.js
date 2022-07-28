@@ -1,13 +1,14 @@
 const Produto = require("../models/Produto")
 
 const produtoController = {
-  index: (req, res) => {
+  //mostrar todos produtos
+  showAllProducts: (req, res) => {
     const produtos = Produto.findAll();
     res.render('paginaProdutos', {produtos})
   },
- 
   detail: (req, res) => {
     const produto = Produto.findOne(req.params.id)
+
     let produtosRelacionados = Produto.filter(produto.categoria)
     
     if(produtosRelacionados.length > 5){
