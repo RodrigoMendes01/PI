@@ -1,7 +1,7 @@
 const Produto = require("../models/Produto")
 
 const produtoController = {
-  //mostrar todos produtos
+  // MOSTRAR TODOS OS PRODUTOS
   showAllProducts: (req, res) => {
     const produtos = Produto.findAll();
     res.render('paginaProdutos', {produtos})
@@ -16,6 +16,15 @@ const produtoController = {
     } 
 
     res.render('detalheProduto', {produto, produtosRelacionados})
+  },
+  // REGISTRAR PRODUTO
+  mostrarFormularioProduto: (req, res) => {
+    return res.render('cadastrarProduto')
+  },
+  criarProduto: (req, res) => {
+    let { name, price, discount, category, description, imagem } = req.body;
+    // RESOLVER ISSO AQUI
+
   }
 }
 

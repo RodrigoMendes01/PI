@@ -20,7 +20,7 @@
         <h2>Cadastro de produto</h2>
       </div>
       <div id="form-edit">
-        <form action="">
+        <form action="/produtos/criar" method="POST" enctype="multipart/form-data">
             <div class="input-edit">
               <label for="name" class="form-label">Nome do produto:</label>
               <input type="text" id="name" name="name" placeholder="Ex: Óleo de Soja SOYA Garrafa 900ml  " class="form-input">
@@ -51,7 +51,7 @@
             </div>
             <div class="imagem-anexar">
               <label class="form-label" for="image">Imagem do produto:</label>
-              <input class="form-input" type="file" name="image" id="image">
+              <input class="form-input" type="file" name="imagem" id="imagem">
             </div>
             <div class="button">
               <button id="btn"type="submit" class="buy-now-button">Cadastrar produto</button>  
