@@ -195,8 +195,8 @@ label {
   font-size: 1.2em;
 }
 input {
-  border-radius: 10px;
-  border: 1px solid black;
+  border-radius: 6px;
+  border: 1px solid #4d4c4d;
   height: 45%;
   outline: 0;
   padding-left: 5px;
