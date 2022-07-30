@@ -182,7 +182,9 @@ main {
 #container-img-descricao {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
   width: 100%;
   padding: 30px 20px;
 }
@@ -204,7 +206,6 @@ main {
   width: 480px;
   background-color: white;
   border-radius: 10px;
-  margin-bottom: 95px;
 }
 #description {
   display: flex;
@@ -220,7 +221,13 @@ main {
 #name-product:hover {
   color: black;
 }
+#description #desconto {
+  color: #4d4c4d;
+  font-weight: 600;
+  font-size: 1.2em;
+}
 b {
+  font-size: .8em;
   color: red;
 }
 b:hover {

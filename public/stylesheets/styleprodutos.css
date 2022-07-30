@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Barlow";
+}
 /* ABRE HEADER */ 
 header {
   display: flex;
@@ -23,7 +26,7 @@ a {
 }
 a:hover {
   color: rgb(182, 12, 12);
-  opacity: .8;
+  opacity: .7;
 }
 .h2-nav:hover {
   color: rgb(182, 12, 12);
@@ -169,8 +172,6 @@ nav {
 }
 /* FECHA HEADER*/
 
-
-
 /* ABRE SETA */
 .setinha {
   position: absolute;
@@ -190,11 +191,23 @@ nav {
 }
 /* FECHA SETA */
 main {
-  padding-top: 50px;
+  padding-top: 20px;
   background-color: #f4f4f4 ;
   font-family: "Barlow";
 }
-
+#return {
+  width: 100%;
+  height: 30px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: red;
+}
+.return-a {
+  text-transform: initial;
+  color: #4d4c4d;
+  font-weight: 500;
+}
 
 /* ABRE PRODUTOS */ 
 #in-sale {
@@ -228,15 +241,15 @@ main {
   width: 100%;
 }
 #detail-product:hover {
-  opacity: .8;
+  opacity: .9;
 }
 article {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   width: 100%;
   height: 40% ;
-  gap: 16px;
   padding: 10px 10px;
   text-decoration: none;
 }
@@ -250,6 +263,18 @@ article #p {
 article #p:hover {
   color: black;
 }
+#desconto {
+  color: #4d4c4d;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+b {
+  font-size: .8em;
+  color: red;
+}
+b:hover {
+  color: rgb(182, 19, 19);
+}
 article #price {
   color: #ff3f40
 }
@@ -260,7 +285,7 @@ article strong {
 article #price:hover {
   color: rgb(201, 19, 19);
 }
-button {
+#btn {
   height: 35px;
   width: 80%;
   background-color: red;
@@ -269,7 +294,7 @@ button {
   color: white;
   cursor: pointer;
 }
-button:hover {
+#btn:hover {
   background-color: rgb(201, 19, 19);
 }
 /* FECHA PRODUTOS */

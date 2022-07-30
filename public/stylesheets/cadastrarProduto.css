@@ -215,10 +215,17 @@ form {
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 15%;
+  height: 14%;
+}
+.input-category-status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 45%;
+  height: 10%;
 }
 #categoria {
-  width: 40%;
+  width: 30%;
   height: 50%;
   border-radius: 8px;
   outline: 0;
