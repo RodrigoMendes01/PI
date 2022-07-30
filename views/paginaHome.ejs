@@ -52,108 +52,80 @@
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
-    <section class="conteinerprodutos">
-      <div class="titulo"><h2>Ofertas</h2></div>
-      <section class="produtos1">
-        <section class="produto">
-          <img src="images/img-home/feijão.jpeg" alt="imagem produto" >
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto">
-          <img src="images/img-home/cerveja.jpeg" alt="imagem produto" >
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00.00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto">
-          <img src="images/img-home/leite.jpeg" alt="imagem produto">
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto">
-          <img src="images/img-home/oleo.jpeg" alt="imagem produto" >
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto">
-          <img src="images/img-home/ovos.jpeg" alt="imagem produto" >
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>  
-      </section>
-      <div class="titulo"><h2>Mais vendidos</h2></div>
-      <section class="produtos2">
-        <section class="produto">
-          <img src="images/img-home/papel.jpeg" alt="imagem produto">
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto" alt="images produto">
-          <img src="images/img-home/SBP.jpeg" alt="imagem produto" >
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto">
-          <img src="images/img-home/cafe.jpeg" alt="imagem produto" >
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto">
-          <img src="images/img-home/detergente.jpeg" alt="imagem produto">
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-        <section class="produto">
-          <img src="images/img-home/pepsi.jpeg" alt="imagem produto">
-          <p class="nome">NOME PRODUTO</p>
-          <p>R$00,00</p>
-          <button class="botao1">Adicione ao carrinho</button> 
-        </section>
-      </section>
-      <div class="titulo"><h2>Mais procurados</h2></div>
-        <section class="produtos3">
-          <section class="produto">
-            <img src="images/img-home/toddy.jpeg" alt="imagem produto">
-            <p class="nome">NOME PRODUTO</p>
-            <p>R$00,00</p>
-            <button class="botao1">Adicione ao carrinho</button> 
-          </section>
-          <section class="produto">
-            <img src="images/img-home/creme.jpeg" alt="imagem produto">
-            <p class="nome">NOME PRODUTO</p>
-            <p>R$00,00</p>
-            <button class="botao1">Adicione ao carrinho</button> 
-          </section>
-          <section class="produto">
-            <img src="images/img-home/leiteninho.jpeg" alt="imagem produto">
-            <p class="nome">NOME PRODUTO</p>
-            <p>R$00,00</p>
-            <button class="botao1">Adicione ao carrinho</button> 
-          </section>
-          <section class="produto">
-            <img src="images/img-home/chocolate.jpeg" alt="imagem produto">
-            <p class="nome">NOME PRODUTO</p>
-            <p>R$00,00</p>
-            <button class="botao1">Adicione ao carrinho</button> 
-          </section>
-          <section class="produto">
-            <img src="images/img-home/suco.jpeg" alt="imagem produto">
-            <p class="nome">NOME PRODUTO</p>
-            <p>R$00,00</p>
-            <button class="botao1">Adicione ao carrinho</button> 
-          </section>
-        </section>
-      </section>
+    <div class="titulo">
+      <h1>Ofertas</h1>
+    </div>
+
+    <section id="in-sale">
+      
+        <% produtosEmOferta.forEach(produto => { %>
+
+          <div id="card">
+            <a id="detail-product" href="/produtos/detalhe/<%= produto.id %> ">
+              <figure>
+                <img src="/images/imgprodutos/<%= produto.imagem %> " alt="">
+              </figure>
+              <article>
+                <p id="p"><%= produto.nome %> </p>
+
+                <p id="desconto"><%= produto.desconto %><b>%OFF</b></p>
+                <h2 id="price"><strong>R$</strong><%= produto.preco %> </h2>
+
+                <button id="btn">Adicionar ao Carrinho</button>
+              </article>
+            </a>
+          </div>
+         
+        <% }) %>
+
     </section>
+
+
+    <div class="titulo">
+      <h1>Mais Visitados</h1>
+    </div>
+
+    <section id="in-sale">
+      
+      <% produtosUltimosVistos.forEach(produto => { %>
+       
+        <div id="card">
+          <a id="detail-product" href="/produtos/detalhe/<%= produto.id  %> ">
+            <figure>
+              <img src="/images/imgprodutos/<%= produto.imagem %> " alt="">
+            </figure>
+            <article>
+              <p id="p"><%= produto.nome %> </p>
+              <h2 id="price"><strong>R$</strong><%= produto.preco %> </h2>
+              <button id="btn">Adicionar ao Carrinho</button>
+            </article>
+          </a>
+        </div>
+
+      <% }) %> 
+
+  </section>
+
+    <div class="titulo">
+      <h1>Mais comprados</h1>
+    </div>
+
+    <section id="in-sale">
+      
+      <div id="card">
+        <a id="detail-product" href="/detalhe/">
+          <figure>
+            <img src="/images/imgprodutos/" alt="">
+          </figure>
+          <article>
+            <p id="p">item.nome</p>
+            <h2 id="price"><strong>R$</strong>item.preco</h2>
+            <button id="btn">Adicionar ao Carrinho</button>
+          </article>
+        </a>
+      </div>
+
+  </section>
  
   </main>
   

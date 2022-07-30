@@ -21,20 +21,27 @@
 
     <main>
 
+      <div id="return">
+        <a class="return-a" href="/">Página inicial </a>
+        <span> > </span>
+        <a class="return-a" href="/produtos">Todos os produtos</a>
+      </div>
+
       <!-- ABRE PRODUTOS -->
       <section id="in-sale">
       
         <% produtos.forEach(produto => { %>
          
           <div id="card">
-            <a id="detail-product" href="/detalhe/<%= produto.id %>">
+            <a id="detail-product" href="/produtos/detalhe/<%= produto.id %>/">
               <figure>
                 <img src="/images/imgprodutos/<%= produto.imagem %>" alt="">
               </figure>
               <article>
                 <p id="p"><%= produto.nome%></p>
+                <p id="desconto"><%= produto.desconto %><b>%OFF</b></p>
                 <h2 id="price"><strong>R$</strong><%= produto.preco %></h2>
-                <button>Adicionar ao Carrinho</button>
+                <button id="btn">Adicionar ao Carrinho</button>
               </article>
             </a>
           </div>

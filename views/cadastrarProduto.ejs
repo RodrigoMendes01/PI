@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheets/cadastrarProduto.css">
+  <link rel="stylesheet" href="/stylesheets/cadastrarProduto.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
@@ -20,63 +20,70 @@
         <h2>Cadastro de produto</h2>
       </div>
       <div id="form-edit">
-        <form action="">
+        <form action="/produtos/criar" method="POST" enctype="multipart/form-data">
 
             <div class="input-edit">
-              <label for="name" class="form-label">Nome do produto:</label>
-              <input type="text" id="name" name="name" placeholder="Ex: Óleo de Soja SOYA Garrafa 900ml  " class="form-input">
+              <label for="nome" class="form-label">Nome do produto:</label>
+              <input type="text" id="name" name="nome" placeholder="Ex: Óleo de Soja SOYA Garrafa 900ml  " class="form-input">
             </div>
 
             <div class="input-edit">
-              <label for="price" class="form-label">Preço do produto:</label>
-              <input type="text" id="price" name="price" placeholder="Ex:10,99 " class="form-input">
+              <label for="preco" class="form-label">Preço do produto:</label>
+              <input type="text" id="price" name="preco" placeholder="Ex:10,99 " class="form-input">
             </div>
 
             <div class="input-edit">
-              <label for="discount" class="form-label">Desconto:</label>
-              <input type="text" id="discount" name="discount" placeholder="Ex: 10" class="form-input">
+              <label for="desconto" class="form-label">Desconto:</label>
+              <input type="text" id="discount" name="desconto" placeholder="Ex: 10" class="form-input">
             </div>
 
-            <div class="input-edit">
-              <label for="category" class="form-label">Categoria:</label>
-              <select id="categoria" name="category" id="category" class="form-input">
+            <div class="input-category-status">
+              <label for="categoria" class="form-label">Categoria:</label>
+              <select id="categoria" name="categoria" id="category" class="form-input">
                 <option value="">Categoria aqui:</option>
-                <option value="in-sale">Bebidas</option>
-                <option value="in-sale">Açucar e Adoçante</option>
-                <option value="in-sale">Grãos e Cereais</option>
-                <option value="in-sale">Farináceos</option>
-                <option value="in-sale">Açougue e Peixaria</option>
-                <option value="in-sale">Massas</option>
-                <option value="in-sale">Higiene Pessoal</option>
-                <option value="in-sale">Limpeza</option>
-                <option value="in-sale">Frios e Lacticínios</option>
-                <option value="in-sale">Hortifruti</option>
-              </select>        
+                <option value="Bebidas">Bebidas</option>
+                <option value="Açucar e Adoçante">Açucar e Adoçante</option>
+                <option value="Grãos e Cereais">Grãos e Cereais</option>
+                <option value="Farináceos">Farináceos</option>
+                <option value="Açougue e Peixaria">Açougue e Peixaria</option>
+                <option value="Massas">Massas</option>
+                <option value="Higiene Pessoal">Higiene Pessoal</option>
+                <option value="Limpeza">Limpeza</option>
+                <option value="Frios e Lacticínios">Frios e Lacticínios</option>
+                <option value="Hortifruti">Hortifruti</option>
+              </select>  
+
+              <label for="status" class="form-label">Status:</label>
+              <select id="categoria" name="status" id="category" class="form-input">
+                <option value="in-sale">Status aqui:</option>
+                <option value="visitado">visitado</option>
+                <option value="oferta">oferta</option>
+              </select>      
             </div>
 
             <div class="input-edit">
-              <label for="brand" class="form-label">Marca:</label>
-              <input name="brand" id="brand" class="form-input" placeholder="Ex: Coca-Cola">
+              <label for="marca" class="form-label">Marca:</label>
+              <input name="marca" id="brand" class="form-input" placeholder="Ex: Coca-Cola">
             </div>
 
             <div class="input-edit">
-              <label for="height" class="form-label">Altura:</label>
-              <input name="height" id="height" class="form-input" placeholder="Ex:">
+              <label for="altura" class="form-label">Altura:</label>
+              <input name="altura" id="height" class="form-input" placeholder="Ex:">
             </div>
 
             <div class="input-edit">
-              <label for="width" class="form-label">Largura:</label>
-              <input name="width" id="width" class="form-input" placeholder="Ex:">
+              <label for="largura" class="form-label">Largura:</label>
+              <input name="largura" id="width" class="form-input" placeholder="Ex:">
             </div>
 
             <div class="input-edit">
-              <label for="weight" class="form-label">Peso liquído(KG):</label>
-              <input name="weight" id="weight" class="form-input" placeholder="Ex: 1KG">
+              <label for="altura" class="form-label">Peso liquído(KG):</label>
+              <input name="peso" id="weight" class="form-input" placeholder="Ex: 1KG">
             </div>
 
-            <div class="imagem-anexar">
+            <div class="imagem">
               <label class="form-label" for="image">Imagem do produto:</label>
-              <input class="form-input" type="file" name="image" id="image">
+              <input class="form-input" type="file" name="imagem" id="image">
             </div>
             <div class="button">
               <button id="btn"type="submit">Cadastrar produto</button>  
