@@ -13,77 +13,119 @@
   <title>Área do produto</title>
 </head>
 
-<!-- HEADER STARTS -->
-
-<%- include('./partials/header')  %> 
-<!-- HEADER ENDS -->
 <body>
-    <div class="nomeProduto">
-      <div>
-      <img src="/images/img-comprar/amaciante.jpeg">
+  <!-- HEADER STARTS -->
+
+  <%- include('./partials/header') %>
+
+  <!-- HEADER ENDS -->
+
+  <!--MAIN START-->
+
+    <main>
+    <div id="container-img-descricao">
+      <div id="container-img">
+        <img src="/images/imgprodutos/<%= produto.imagem %> " alt="">
       </div>
-      <div class="descricao">
-        <h1>Amaciante Comfort 1L</h1>
-        <h4> R$14,75 </h4>
-        <label for="cep">Calcule o frete e prazo de entrega</label>
-        <input type="number and sign" placeholder="CEP" required placeholder="CEP" name="cep" id="cep">
-        <button type="submit" id="consultar">Consultar</button>
-        <button type="submit">Comprar</button>
+
+      <div id="container-descricao">
+
+        <div id="description">
+          <h2 id="name-product"><%= produto.nome%></h2>
+  
+          <% if (produto.desconto != 0) { %>
+
+            <p id="desconto"><%= produto.desconto %><b>%OFF</b></p>
+
+            <p id="preco-antigo">de: R$<span id="preco-antigo-span"><%= produto.preco  %></span></p>
+            
+          <% } %>
+
+          <p>R$ <span id="price-product"><%= (produto.preco - (produto.desconto / 100 * produto.preco)).toFixed(2) %></span> à vista</p>
+  
+          <a href="" id="buy-now">COMPRAR</a>
+
+          <form action="">
+            <label for="input-cep" id="label-cep">Calcular frete:</label><input id="input-cep" type="text" placeholder="CEP ex:06950-000"><button id="consultar" type="submit">OK</button>
+          </form>
+        </div>
+
+
+        <div id="btn-edit-delete">
+
+          <a href="/produtos/editar/<%= produto.id %>" id="btn-edit">EDITAR PRODUTO</a>
+
+  						<form action="/produtos/deletar/<%= produto.id %>?_method=DELETE " method="POST" id="form-btn-delete">
+  							<button type="submit" id="btn-delete">APAGAR</button>
+  						</form>
+
+            </div>  
+        
       </div>
     </div>
-  <h4 id="detalhesDoProduto">Detalhes do produto</h4>
-  <div class="caracteristicas-do-produto">
-    <hr>
-    <p>Marca: Comfort</p>
-    <hr>
-    <p>Altura do produto (cm): 25</p>
-    <hr>
-    <p>Largura do produto (cm): 12</p>
-    <hr>
-    <p>Peso líquido (kg): 1,072</p>
-    <hr>
-    <p>Profundidade do produto (cm): 7</p>
-    <hr>
-  </div>
-  <h4 id="veja-tambem">Veja também</h4>
-  <hr>
-  <br>
-   <!-- SEÇÃO PRODUTOS STARTS-->
-  <section class="produtos1">
-    <section class="produto">
-      <img src="/images/img-comprar/aguasanitaria.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$1,49</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
-    <section class="produto">
-      <img src="/images/img-comprar/detergente.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$1,89</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
-    <section class="produto">
-      <img src="/images/img-comprar/vejacozinha.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$7,10</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
-    <section class="produto">
-      <img src="/images/img-comprar/alcool.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$00,00</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
-    <section class="produto">
-      <img src="/images/img-comprar/esponja.jpeg" width="60%" height="127vh">
-      <p class="nome">NOME PRODUTO</p>
-      <p>R$00,00</p>
-      <button class="botao1">Adicione ao carrinho</button>
-    </section>
-  </section>
-  <section class="produtos2">
-     <!-- SEÇÃO PRODUTOS ENDS-->
-<%- include('./partials/footer')  %>      
-</body>
 
+    <div id="detail">
+      <h3 id="detail-title">Detalhes do produto:</h3>
+      <hr>
+      <div id="info-detail">
+        <br>
+        <p class="detail-p">Marca:<%= produto.descricao.marca %> </p>
+        <br>
+        <hr>
+        <br>
+        <p class="detail-p">Altura:<%= produto.descricao.altura %></p>
+        <br>
+        <hr>
+        <br>
+        <p class="detail-p">Largura:<%= produto.descricao.largura %></p>
+        <br>
+        <hr>
+        <br>
+        <p class="detail-p">Peso líquido(KG):<%= produto.descricao.peso %></p>
+        <br>
+      </div>
+    </div>
+    <!-- SEÇÃO PRODUTOS STARTS-->
+
+    <section id="in-sale">
+      
+      <% produtosRelacionados.forEach(item => { %>
+       
+        <div id="card">
+          <a id="detail-product" href="/detalhe/<%= item.id %>">
+            <figure>
+              <img src="/images/imgprodutos/<%= item.imagem %>" alt="">
+            </figure>
+            <article>
+              <p id="p"><%=item.nome%></p>
+
+              <% if (item.desconto != 0) { %>
+
+                <p id="desconto"><%= item.desconto %><b>%OFF</b></p>
+
+                <p id="preco-antigo">de: R$<span id="preco-antigo-span"><%= item.preco  %></span></p>
+                
+              <% } %>
+
+              <h2 id="price"><strong>R$</strong><%=item.preco %></h2>
+              <button id="btn">Adicionar ao Carrinho</button>
+            </article>
+          </a>
+        </div>
+
+      <% }) %>
+
+      
+    </section>
+
+    <!-- SEÇÃO PRODUTOS ENDS-->
+    </main>
+    <!--MAIN END-->
+
+    <!--FOOTER START-->
+    <%- include('./partials/footer') %>
+    <!--FOOTER END-->
+
+    <script src="/javaScript/hamburger.js"></script>
+</body>
 </html>

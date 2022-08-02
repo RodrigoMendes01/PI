@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/styleLogin.css">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+  <title>Mini Market</title>
+</head>
+<body>
+  <%- include('./partials/header')  %> 
+  <main>
+    <div id="form">
+        <form action="">
+          <div class="area">
+            <label>E-mail:</label>
+            <input id="email" type="email" placeholder="Ex: seuemail@gmail.com">
+          </div>
+          <div class="area">
+            <label>Senha:</label>
+            <input id="password" type="password" placeholder="Senha">
+            <span class="lnr lnr-eye"></span>
+          </div>
+          <div id="button"><button id="btn" type="submit">Entrar</button></div>
+          <p><a class="a" href="#">Esqueci minha senha ou E-mail</a></p>
+          <p>Novo usuário? <a class="a" href="/usuarios/cadastro">Cadastre-se</a></p>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="/javaScript/hamburger.js"></script>
+</body>
+</html>

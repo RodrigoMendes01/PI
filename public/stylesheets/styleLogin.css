@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HEADER START */
+header {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  padding: 0px 20px 0px 20px;
+  gap: 3%;
+  height: 15vh;
+}
+/* MENU START */
+
+a {
+  color: rgb(150, 143, 143);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.7;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Barlow';
+  height: 10vh;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+.menu {
+  cursor: pointer;
+}
+.menu div {
+  border-radius: 2px;
+  width: 22px;
+  height: 4px;
+  background: #fff;
+  margin: 4px;
+  transition: 0.5s;
+}
+.nav-list {
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  width: 25vw;
+  height: 85vh;
+  background: white;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px ;
+  gap: 5px;
+  overflow-y:scroll;
+  box-shadow: 0 0 1em red;
+  transform: translateX(-103%);
+  transition: transform 0.4s ease-in;
+  z-index: 1;
+}
+.nav-list li {
+  margin-left: 0;
+  opacity: 0;
+}
+.menu {
+  display: block;
+}
+.nav-list.active {
+  transform: translateX(0);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.menu.active .line1 {
+  transform: rotate(-45deg) translate(-7px, 7px);
+}
+.menu.active .line2 {
+  opacity: 0;
+}
+.menu.active .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+/* MENU END */
+
+/* HEADER CONTINUATION */
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  width: max-content;
+  
+}
+.logo-container img {
+  height: 90%;
+}
+.pesquisa-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+  border-radius: 6px;
+  background-color: rgb(182, 12, 12);
+}
+#input-pesquisa {
+  border-radius: 6px 0px 0px 6px;
+  width: 85%;
+  height: 100%;
+  font-size: 1em;
+  padding-left: 8px;
+  border: 0;
+  outline: 0;
+}
+#lupa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 15% ;
+  border-radius: 0px 6px 6px 0px;
+}
+#lupa img {
+  height: 80%;
+  padding-left: 5px;
+}
+#user-car {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  width: 20%;
+  height: 100%;
+}
+#user {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  width: 30%;
+  cursor: pointer;
+}
+#user img {
+  height: 60%;
+}
+#car {
+ display: flex;
+ align-items: center;
+ height: 90%;
+ width: 30%;
+}
+#car img {
+  height: 45%;
+}
+/* HEADER END */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  background-color: #EBEBEB; ;
+}
+#form {
+  background-color: white;
+  border-radius: 10px;
+  width: 28%;
+  height: 70%;
+}
+form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.area {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 20%;
+}
+label {
+  color: #666666;
+  font-size: 1.2em;
+}
+input {
+  border-radius: 6px;
+  border: 1px solid #4d4c4d;
+  height: 45%;
+  outline: 0;
+  padding-left: 5px;
+}
+.a {
+  text-decoration: none;
+  color: rgb(202, 9, 9);
+  font-weight: 500;
+  text-transform: initial;
+}
+.lnr-eye {
+  position: relative;
+  top: -28px;
+  left: 90%;
+  cursor: pointer;
+}
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 10%;
+  border-radius: 10px;
+}
+#btn {
+  height: 90%;
+  width: 80%;
+  border-radius: 5px;
+  border: 0;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: rgb(202, 9, 9);
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  #form {
+    width: 60%;
+  }
+  .lnr-eye {
+    top: -24px;
+    left: 86%
+  }
+}
+@media (min-width: 1024px) and (max-width: 1300px ) {
+  #form {
+    width: 40%;
+  }
+}
+
+

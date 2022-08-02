@@ -65,30 +65,20 @@ button {
 }
 
 /* HEADER */
-p {
-  font-family: Barlow;
-  font-size: 15px;
-}
-
-.container {
-  position: fixed;
+header {
   display: flex;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  background-color: red;
-  z-index: 9; 
-}
-
-#logo {
   justify-content: center;
-  align-items: left;  
+  align-items: center;
+  background-color: red;
+  height: 14vh;
 }
-
-#icone {
-  display: inline-flex;
-  position: absolute; 
-  right: 25px; 
-  top: 35px;
+header .logo {
+  display: flex;
+  justify-content: center;
+  height: 95%;
+  width: 7%;
+}
+header .logo img {
+  height: 100%;
 }
 /* HEADER ENDS*/

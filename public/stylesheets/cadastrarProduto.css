@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow";
+}
+/* HEADER START */
+header {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  padding: 0px 20px 0px 20px;
+  gap: 3%;
+  height: 15vh;
+}
+/* MENU START */
+
+a {
+  color: rgb(150, 143, 143);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.3s;
+}
+a:hover {
+  color: rgb(182, 12, 12);
+  opacity: .8;
+}
+.h2-nav:hover {
+  color: rgb(182, 12, 12);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Barlow';
+  height: 10vh;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+.menu {
+  cursor: pointer;
+}
+.menu div {
+  border-radius: 2px;
+  width: 22px;
+  height: 4px;
+  background: #fff;
+  margin: 4px;
+  transition: 0.5s;
+}
+.nav-list {
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  width: 25vw;
+  height: 85vh;
+  background: white;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px ;
+  gap: 5px;
+  overflow-y:scroll;
+  box-shadow: 0 0 1em red;
+  transform: translateX(-103%);
+  transition: transform 0.4s ease-in;
+  z-index: 1;
+}
+.nav-list li {
+  margin-left: 0;
+  opacity: 0;
+}
+.menu {
+  display: block;
+}
+.nav-list.active {
+  transform: translateX(0);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.menu.active .line1 {
+  transform: rotate(-45deg) translate(-7px, 7px);
+}
+.menu.active .line2 {
+  opacity: 0;
+}
+.menu.active .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+/* MENU END */
+
+/* HEADER CONTINUATION */
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  width: max-content;
+  
+}
+.logo-container img {
+  height: 90%;
+}
+.pesquisa-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+  border-radius: 6px;
+  background-color: rgb(182, 12, 12);
+}
+#input-pesquisa {
+  border-radius: 6px 0px 0px 6px;
+  width: 85%;
+  height: 100%;
+  font-size: 1em;
+  padding-left: 8px;
+  border: 0;
+  outline: 0;
+}
+#lupa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 15% ;
+  border-radius: 0px 6px 6px 0px;
+}
+#lupa img {
+  height: 80%;
+  padding-left: 5px;
+}
+#user-car {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  width: 20%;
+  height: 100%;
+}
+#user {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  width: 30%;
+  cursor: pointer;
+}
+#user img {
+  height: 60%;
+}
+#car {
+ display: flex;
+ align-items: center;
+ height: 90%;
+ width: 30%;
+}
+#car img {
+  height: 45%;
+}
+/* HEADER ENDS */
+
+/*MAIN START*/
+main {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  background-color: #EBEBEB;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0px 50px;
+}
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  color: #666666;
+  font-size: 1.2em;
+  
+}
+#form-edit {
+  display: flex;
+  background-color: white;
+  padding: 10px 0px; 
+  border-radius: 10px;
+  width: 70%;
+  height: 80%;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #666666;
+  width: 100%;
+  font-size: 1.2em;
+}
+.input-edit {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 14%;
+}
+.input-category-status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 45%;
+  height: 10%;
+}
+#categoria {
+  width: 30%;
+  height: 50%;
+  border-radius: 8px;
+  outline: 0;
+}
+label {
+  font-weight: 500;
+}
+input {
+  height: 50%;
+  border-radius: 6px;
+  border: 1px solid #4d4c4d;
+  outline: 0;
+  padding-left: 5px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#btn {
+  height: 90%;
+  width: 40%;
+  border-radius: 8px;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: rgb(182, 12, 12);
+}
+.descricao {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  height: 30%;
+}
+#image {
+  border: 0;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  #form-edit {
+    width: 90%;
+  }
+  form {
+    font-size: .9em;
+  }
+  #categoria {
+    width: 90%;
+  }
+  .imagem-anexar {
+    width: 95%;
+  }
+}
+  
+  
