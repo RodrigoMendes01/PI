@@ -1,24 +1,13 @@
 /*** Require's ***/
 const express = require("express");
 const router = express.Router();
-const multer = require('multer');
-const path = require('path')
 
 /*** Controller Require ****/
 const produtoController = require('../controllers/produtoController');
+/*** Middleware Require ***/
+const upload = require('../middlewares/multer')
 
-/*** Middlewares ***/
-const storage = multer.diskStorage({
-  destination: (req, file, callback) => {
-    const folder = path.join(__dirname, "../public/images/imgprodutos")
-    callback(null, folder )
-  },
-  filename: (req, file, callback) => {
-    callback(null, Date.now() + '-' + file.originalname);
-  }
-})
-
-const upload = multer({storage})
+/***********************************************************************************************************************/
 
 /*** Get all products ***/
 router.get('/', produtoController.showAllProducts);
@@ -31,7 +20,8 @@ router.post('/criar', upload.single('imagem'), produtoController.storeProduct)
 router.get('/detalhe/:id/', produtoController.detail);
 
 /*** Edit One Product ***/
-
+router.get('/editar/:id', produtoController.edit);
+router.put('/editar/:id', upload.single('imagem'), produtoController.update) 
 
 /*** Delete One Product ***/
 
