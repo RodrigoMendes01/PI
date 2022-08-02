@@ -304,6 +304,17 @@ article {
   font-weight: 600;
   font-size: 1.1em;
 }
+#preco-antigo {
+  color: #4d4c4d;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#preco-antigo-span {
+  font-weight: 600;
+  font-size: 1.1em;
+  text-decoration: line-through;
+  color: #4d4c4d
+}
 b {
   font-size: .8em;
   color: red;
@@ -322,7 +333,8 @@ article #p:hover {
   color: black;
 }
 article #price {
-  color: #ff3f40
+  color: #ff3f40;
+  font-size: 1.3em;
 }
 article strong {
   font-size: .7em;
