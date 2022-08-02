@@ -33,9 +33,15 @@
         <div id="description">
           <h2 id="name-product"><%= produto.nome%></h2>
   
-          <p id="desconto"><%= produto.desconto %><b>%OFF</b></p>
-  
-          <p>R$ <span id="price-product"> <%=produto.preco %></span> à vista</p>
+          <% if (produto.desconto != 0) { %>
+
+            <p id="desconto"><%= produto.desconto %><b>%OFF</b></p>
+
+            <p id="preco-antigo">de: R$<span id="preco-antigo-span"><%= produto.preco  %></span></p>
+            
+          <% } %>
+
+          <p>R$ <span id="price-product"><%= (produto.preco - (produto.desconto / 100 * produto.preco)).toFixed(2) %></span> à vista</p>
   
           <a href="" id="buy-now">COMPRAR</a>
 
@@ -49,7 +55,7 @@
 
           <a href="/produtos/editar/<%= produto.id %>" id="btn-edit">EDITAR PRODUTO</a>
 
-  						<form action="" method="POST" id="form-btn-delete">
+  						<form action="/produtos/deletar/<%= produto.id %>?_method=DELETE " method="POST" id="form-btn-delete">
   							<button type="submit" id="btn-delete">APAGAR</button>
   						</form>
 
@@ -92,6 +98,15 @@
             </figure>
             <article>
               <p id="p"><%=item.nome%></p>
+
+              <% if (item.desconto != 0) { %>
+
+                <p id="desconto"><%= item.desconto %><b>%OFF</b></p>
+
+                <p id="preco-antigo">de: R$<span id="preco-antigo-span"><%= item.preco  %></span></p>
+                
+              <% } %>
+
               <h2 id="price"><strong>R$</strong><%=item.preco %></h2>
               <button id="btn">Adicionar ao Carrinho</button>
             </article>
