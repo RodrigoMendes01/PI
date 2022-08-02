@@ -39,8 +39,17 @@
               </figure>
               <article>
                 <p id="p"><%= produto.nome%></p>
-                <p id="desconto"><%= produto.desconto %><b>%OFF</b></p>
-                <h2 id="price"><strong>R$</strong><%= produto.preco %></h2>
+
+                <% if (produto.desconto != 0) { %>
+
+                  <p id="desconto"><%= produto.desconto %><b>%OFF</b></p>
+
+                  <p id="preco-antigo">de: R$<span id="preco-antigo-span"><%= produto.preco  %></span></p>
+                  
+                <% } %>
+
+                <h2 id="price"><strong>R$</strong><%= (produto.preco - (produto.desconto / 100 * produto.preco)).toFixed(2) %></h2>
+
                 <button id="btn">Adicionar ao Carrinho</button>
               </article>
             </a>
