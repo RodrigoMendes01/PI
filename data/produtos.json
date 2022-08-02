@@ -5,7 +5,7 @@
     "preco": 1.49,
     "desconto": 0,
     "status": "normal",
-    "imagem":"601_1.jpeg",
+    "imagem": "601_1.jpeg",
     "descricao": {
       "marca": "Dragão",
       "altura": "0",
@@ -18,7 +18,7 @@
     "id": 2,
     "nome": "Detergente Neutro Ipê 500ml",
     "preco": 1.89,
-    "desconto": 2,
+    "desconto": 0,
     "status": "oferta",
     "imagem": "detergente.webp",
     "descricao": {
@@ -32,7 +32,7 @@
     "id": 3,
     "nome": "Desengordurante Veja 500ml",
     "preco": 7.1,
-    "desconto": 3,
+    "desconto": 0,
     "status": "oferta",
     "imagem": "desengordurante-cozinha.webp",
     "descricao": {
@@ -47,7 +47,7 @@
     "id": 4,
     "nome": "Álcool Santa Cruz 1L",
     "preco": 6.2,
-    "desconto": 4,
+    "desconto": 0,
     "status": "oferta",
     "imagem": "alcool-santacruz.webp",
     "descricao": {
@@ -137,7 +137,7 @@
     "id": 10,
     "nome": "Luvas de Borracha Sanro Soft",
     "preco": 6.9,
-    "desconto": 3,
+    "desconto": 0,
     "status": "oferta",
     "imagem": "luvas-sanro-soft.jpeg",
     "descricao": {
@@ -2367,7 +2367,7 @@
   },
   {
     "id": 159,
-    "nome": "Massa Instantânea Galinha Caipira Nissin Cup Noodles Copo 69g",
+    "nome": "Massa Instantânea Galinha Caipira Cup Noodles 69g",
     "preco": 4.95,
     "desconto": 5,
     "status": "oferta",
@@ -2412,9 +2412,9 @@
   },
   {
     "id": 162,
-    "nome": "Macarrão Instantâneo de Tomate Suave Nissin Miojo Turma da Mônica Pacote 85g",
-    "preco": 2.39,
-    "desconto": 5,
+    "nome": "Macarrão Instantâneo de Tomate Suave Pacote 85g",
+    "preco": "2.39",
+    "desconto": "5",
     "status": "oferta",
     "imagem": "588042.webp",
     "descricao": {
@@ -2442,9 +2442,9 @@
   },
   {
     "id": 164,
-    "nome": "Macarrão de Sêmola Grano Duro Fusilli 40 Divella Pacote 500g",
-    "preco": 8.99,
-    "desconto": 5,
+    "nome": "Macarrão Fusilli 40 Divella Pacote 500g",
+    "preco": "8.99",
+    "desconto": "5",
     "status": "oferta",
     "imagem": "23752962.webp",
     "descricao": {
@@ -2487,9 +2487,9 @@
   },
   {
     "id": 167,
-    "nome": "Espaguete Vegano Superiore Grano Duro Importado Renata 500g",
-    "preco": 21.29,
-    "desconto": 5,
+    "nome": "Espaguete Vegano Superiore Grano Renata 500g",
+    "preco": "21.29",
+    "desconto": "5",
     "status": "oferta",
     "imagem": "22370743.webp",
     "descricao": {
@@ -2577,9 +2577,9 @@
   },
   {
     "id": 173,
-    "nome": "Mistura Flocada para Empanados Panko Alfa Pacote 200g",
-    "preco": 15.29,
-    "desconto": 5,
+    "nome": "Mistura Flocada para Empanados Pacote 200g",
+    "preco": "15.29",
+    "desconto": "5",
     "status": "oferta",
     "imagem": "638191.webp",
     "descricao": {
@@ -2892,9 +2892,9 @@
   },
   {
     "id": 194,
-    "nome": "Adoçante em Pó LINEA 40g Caixa com 100 Envelopes de 800mg",
+    "nome": "Adoçante em Pó LINEA 100 Envelopes de 800mg",
     "preco": 23.35,
-    "desconto": 5,
+    "desconto": "5%",
     "status": "oferta",
     "imagem": "9074617.webp",
     "descricao": {
@@ -2907,9 +2907,9 @@
   },
   {
     "id": 195,
-    "nome": "Zero-Cal Sucralose Adoçante Líquido Pack 50% 2ª unidade",
+    "nome": "Zero-Cal Sucralose Adoçante Líquido ",
     "preco": 19.48,
-    "desconto": 5,
+    "desconto": "5%",
     "status": "oferta",
     "imagem": "12919603.webp",
     "descricao": {
@@ -3012,9 +3012,9 @@
   },
   {
     "id": 202,
-    "nome": "Café à Vácuo Torrado e Moído Tradicional MELITTA Caixa 500g",
-    "preco": 19.99,
-    "desconto": 5,
+    "nome": "Café à Vácuo Tradicional MELITTA Caixa 500g",
+    "preco": "19.99",
+    "desconto": "5",
     "status": "oferta",
     "imagem": "12329841.webp",
     "descricao": {
@@ -3178,8 +3178,8 @@
   {
     "id": 213,
     "nome": "Barilla Integrale Spaghettini Grano Duro 500g",
-    "preco": 10.70,
-    "desconto": "0",
+    "preco": 10.7,
+    "desconto": 0,
     "status": "normal",
     "imagem": "1659405538251-19747734.jpg",
     "descricao": {
