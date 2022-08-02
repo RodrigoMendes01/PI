@@ -1,4 +1,7 @@
-//importando os produtos no JSON
+/*************** Require's *************************/
+
+
+/******* importando os produtos no JSON *************/
 const produtos = require("../data/produtos.json");
 
 const Produto = {

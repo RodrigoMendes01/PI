@@ -51,6 +51,37 @@ const produtoController = {
     } 
 
     res.render('detalheProduto', {produto, produtosRelacionados})
+  },
+  /*** Show the product that was choosed to edit  ***/
+  edit: (req, res) => {
+    const {id} = req.params 
+    const produto = Produto.findOne(id)
+    res.render('editarProduto', {produto})
+  },
+  update: (req, res) => {
+    const produtos = Produto.findAll();
+    const {id} = req.params
+    const produtoRecebido = req.body
+    const imagemRecebida = req.file
+
+    const produtoQueSeraAtualizado = produtos.find(produto => produto.id == id)
+
+    const produtoAtualizado =
+    produtoQueSeraAtualizado.nome = produtoRecebido.nome
+    produtoQueSeraAtualizado.preco = produtoRecebido.preco
+    produtoQueSeraAtualizado.desconto = produtoRecebido.desconto
+    produtoQueSeraAtualizado.status = produtoRecebido.status
+    produtoQueSeraAtualizado.imagem = imagemRecebida
+    produtoQueSeraAtualizado.descricao.marca = produtoRecebido.marca
+    produtoQueSeraAtualizado.descricao.altura = produtoRecebido.altura
+    produtoQueSeraAtualizado.descricao.largura = produtoRecebido.largura
+    produtoQueSeraAtualizado.descricao.peso = produtoRecebido.peso
+    produtoQueSeraAtualizado.categoria = produtoRecebido.categoria
+
+    fs.writeFileSync(path.join(__dirname, '../data/produtos.json'), JSON.stringify(produtos));
+
+    res.redirect('/produtos/detalhe/' + id)
+    
   }
 }
 
