@@ -1,29 +1,32 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+/**************** Require's ********************/
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
+const methodOverride = require('method-override');
 
+/**************** Express *********************/
+const app = express();
 
-var usuariosRouter = require('./routes/usuarios');
-var produtosRouter = require('./routes/produtos')
-var homeRouter = require('./routes/home')
-var app = express();
-
-// view engine setup
+/***************** Midllewares ****************/
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(methodOverride('_method'));
+
+/***************** Routes *****************/
+const usuariosRouter = require('./routes/usuarios');
+const produtosRouter = require('./routes/produtos')
+const homeRouter = require('./routes/home')
 
 app.use('/', homeRouter);
 app.use('/usuarios', usuariosRouter);
 app.use('/produtos', produtosRouter);
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
